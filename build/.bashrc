@@ -10,12 +10,17 @@ if [ -f ./build/versions.env ]; then
     echo
 fi
 
+case "$-" in
+    *i*) _wget_interactive_options="--show-progress" ;;
+      *) _wget_interactive_options= ;;
+esac
+
 
 
 if [ ! -d .tmp ]; then mkdir .tmp; fi
 
 if [ ! -f $(pwd)/.tmp/cloc.pl ]; then
-    wget -nv --show-progress -O .tmp/cloc.pl https://github.com/AlDanial/cloc/releases/download/$_CLOC_VERSION/cloc-$_CLOC_VERSION.pl
+    wget -nv $_wget_interactive_options -O .tmp/cloc.pl https://github.com/AlDanial/cloc/releases/download/$_CLOC_VERSION/cloc-$_CLOC_VERSION.pl
 fi
 
 

@@ -112,10 +112,15 @@
   >
     <!--  Using solutions for unit tests won't work: https://github.com/Microsoft/vstest/issues/411
           Redirecting intermediates won't work either: https://github.com/dotnet/sdk/issues/3485 -->
+    <ItemGroup>
+      <_VsTestLoggers Include="xunit" />
+      <_VsTestLoggers Condition="'$(VSTEST_LOGGER)' != ''" Include="$(VSTEST_LOGGER)" />
+    </ItemGroup>
     <PropertyGroup>
       <_BaseOutputPath>$(TestsOutputPath)bin\%(TestProjects.Filename)\</_BaseOutputPath>
       <_BaseIntermediateOutputPath>$(IntermediateOutputPath)tst\%(TestProjects.Filename)\</_BaseIntermediateOutputPath>
       <_VSTestResultsPath>$(TestsOutputPath)results\%(TestProjects.Filename)\</_VSTestResultsPath>
+      <_VsTestLogger>@(_VsTestLogger->'&quot;%(Identity)&quot;')</_VsTestLogger>
     </PropertyGroup>
     <ItemGroup>
       <_TestProperties Include="IsTestProject=True" />
@@ -124,15 +129,14 @@
       <_TestProperties Include="VSTestBlame=True" />
       <_TestProperties Include="VSTestVerbosity=normal" />
       <_TestProperties Include="VSTestResultsDirectory=$(_VSTestResultsPath)" />
-      <_TestProperties Include="VSTestTestAdapterPath=." />
+      <_TestProperties Include="VSTestTestAdapterPath=$(InputPath)" />
       <_TestProperties Include="VSTestCollect=XPlat Code Coverage" />
-      <_TestProperties Include="VSTestLogger=xunit" />
+      <_TestProperties Include="VSTestLogger=$(_VsTestLogger)" />
       <_TestProperties Condition="Exists('$(InputPath)\$(MSBuildProjectName)$(UnitTestsSuffix).runsettings')" Include="VSTestSetting=$(InputPath)\$(MSBuildProjectName)$(UnitTestsSuffix).runsettings" />
     </ItemGroup>
 
     <RemoveDir Directories="$(_VSTestResultsPath)" />
     <MSBuild
-      ContinueOnError="ErrorAndContinue"
       Projects="%(TestProjects.Identity)"
       RebaseOutputs="True"
       Properties="Configuration=Release;BaseOutputPath=$(_BaseOutputPath);@(_TestProperties);%(Projects.Properties)"
@@ -188,7 +192,7 @@
   <Target Name="Package" DependsOnTargets="Prepare;PackProject" />
 
   <Target Name="PackProject" DependsOnTargets="Compile" >
-    <PropertyGroup>
+    <!--PropertyGroup>
       <_BaseOutputPath>$(PackageOutputPath)%(Projects.FileName)\</_BaseOutputPath>
       <_BaseIntermediateOutputPath>$(IntermediateOutputPath)pck\%(Projects.FileName)\</_BaseIntermediateOutputPath>
     </PropertyGroup>
@@ -201,7 +205,7 @@
       Properties="Configuration=%(Projects.Configuration);Platform=%(Projects.Platform);BaseOutputPath=$(_BaseOutputPath);BaseIntermediateOutputPath=$(_BaseIntermediateOutputPath);@(_PackageProperties);%(Projects.Properties)"
       Targets="Restore;Pack"
       RunEachTargetSeparately="True"
-    />
+    /-->
   </Target>
 
 

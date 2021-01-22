@@ -1,0 +1,32 @@
+version: 0.0.{build}.0
+image: Visual Studio 2019
+
+environment:
+  VSTEST_LOGGER: Appveyor
+
+
+install:
+  - cmd: CALL build\SetEnv.bat
+  - cmd: dotnet add Vigicrues.Tests\Vigicrues.Tests.csproj package Appveyor.TestLogger --version 2.0.0
+cache:
+  - .tmp -> appveyor.yml, build\versions.env
+
+
+
+before_build:
+  - cmd: SET PACKAGE_VERSION=%APPVEYOR_BUILD_VERSION%
+
+build_script:
+  - cmd: dotnet msbuild Vigicrues.Client.proj /nologo /t:UpdateVersion;Release /m /r /l:"C:\Program Files\AppVeyor\BuildAgent\dotnetcore\Appveyor.MSBuildLogger.dll" /fl /flp:logfile=build.log;verbosity=diagnostic;encoding=UTF-8 /nr:False /v:normal
+
+
+
+artifacts:
+  - path: tmp\out\bin\*.zip
+  - path: tmp\*results.xml
+  - path: build.log
+
+
+
+on_failure:
+  - ps: Push-AppveyorArtifact build.log

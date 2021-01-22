@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vigicrues", "Vigicrues\Vigicrues.csproj", "{01A64C54-2F00-4B12-82FA-89ADFC4EE529}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{4EEB8F48-022E-461A-88F5-117A32BF9A31}"
+	ProjectSection(SolutionItems) = preProject
+		build\.bashrc = build\.bashrc
+		build\Common.targets = build\Common.targets
+		build\SetEnv.bat = build\SetEnv.bat
+		build\versions.env = build\versions.env
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1FB66FE9-F1B0-43E1-8CC8-59D6866D669D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		build.bat = build.bat
+		build.sh = build.sh
+		Vigicrues.Client.proj = Vigicrues.Client.proj
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vigicrues.Tests", "Vigicrues.Tests\Vigicrues.Tests.csproj", "{EC876D33-FF38-44CF-B183-C2626A67ED8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01A64C54-2F00-4B12-82FA-89ADFC4EE529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A64C54-2F00-4B12-82FA-89ADFC4EE529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A64C54-2F00-4B12-82FA-89ADFC4EE529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A64C54-2F00-4B12-82FA-89ADFC4EE529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC876D33-FF38-44CF-B183-C2626A67ED8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC876D33-FF38-44CF-B183-C2626A67ED8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC876D33-FF38-44CF-B183-C2626A67ED8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC876D33-FF38-44CF-B183-C2626A67ED8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67A9BB57-803B-42A7-8047-EA60F720FDA4}
+	EndGlobalSection
+EndGlobal

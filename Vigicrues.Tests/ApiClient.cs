@@ -43,6 +43,7 @@ namespace Vigicrues
 
             // Assert
             Assert.NotNull(result);
+            Assert.NotEmpty(result);
 
             fakeHttpMessageHandler.Protected().Verify(
                "SendAsync",

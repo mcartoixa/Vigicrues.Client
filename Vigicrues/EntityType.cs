@@ -14,7 +14,7 @@ namespace Vigicrues
         /// <summary>Metropolitan area.</summary>
         MetropolitanArea = 2,
         /// <summary>Overseas territories.</summary>
-        OverseasTerritories = 3,
+        OverseasTerritory = 3,
         /// <summary>County.</summary>
         County = 4,
         /// <summary>Territory.</summary>

@@ -28,9 +28,9 @@ namespace Vigicrues.Serialization
         [InlineData("\"99\"", TestEnum.Value3)]
         public void Read_ShouldParseIntegerValuesInStrings(string input, TestEnum expected)
         {
-            TestEnum ret = JsonSerializer.Deserialize<TestEnum>(input);
+            TestEnum value = JsonSerializer.Deserialize<TestEnum>(input);
 
-            Assert.Equal(ret, expected);
+            Assert.Equal(value, expected);
         }
 
         [Theory]
@@ -39,9 +39,9 @@ namespace Vigicrues.Serialization
         [InlineData(TestEnum.Value3, "\"99\"")]
         public void Write_ShouldOutputIntegerValuesInStrings(TestEnum input, string expected)
         {
-            string ret = JsonSerializer.Serialize(input);
+            string value = JsonSerializer.Serialize(input);
 
-            Assert.Equal(ret, expected);
+            Assert.Equal(value, expected);
         }
     }
 }

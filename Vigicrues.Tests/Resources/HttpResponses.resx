@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TerEntVigiCru" xml:space="preserve">
+    <value>{
+    "@context": {
+        "mat": "http://id.eaufrance.fr/ddd/mat/3.1/",
+        "int": "http://id.eaufrance.fr/ddd/int/2/",
+        "vic": "http://id.eaufrance.fr/ddd/vic/1.1/",
+        "com": "http://id.eaufrance.fr/ddd/com/4/",
+        "hyd": "http://id.eaufrance.fr/ddd/hyd/2.3/",
+        "eth": "http://id.eaufrance.fr/ddd/eth/2/",
+        "zon": "http://id.eaufrance.fr/ddd/zon/2.2/",
+        "mdo": "http://id.eaufrance.fr/ddd/mdo/1.4/"
+    },
+    "mat:Scenario": {
+        "Flux": {
+            "Version": "béta",
+            "DateRevision": "2019-09-16T11:30:00"
+        },
+        "mat:CodeScenario": "VICGeo",
+        "mat:VersionScenario": "1beta",
+        "mat:NomScenario": "Vigilance crues aux formats géo",
+        "DateHeureCreationFichier": "2021-01-23T08:01:53+00:00",
+        "Emetteur": {
+            "@id": "http://id.eaufrance.fr/int/1537",
+            "int:CdIntervenant": "1537"
+        }
+    },
+    "count_TerEntVigiCru": 23,
+    "vic:TerEntVigiCru": [
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/1",
+            "vic:CdEntVigiCru": "1",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Artois-Picardie",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=1&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=1&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/2",
+            "vic:CdEntVigiCru": "2",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Meuse-Moselle",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=2&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=2&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/3",
+            "vic:CdEntVigiCru": "3",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Rhin-Sarre",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=3&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=3&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/4",
+            "vic:CdEntVigiCru": "4",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Seine aval-Côtiers Normands",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=4&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=4&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/5",
+            "vic:CdEntVigiCru": "5",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Oise-Aisne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=5&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=5&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/6",
+            "vic:CdEntVigiCru": "6",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Seine amont-Marne amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=6&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=6&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/7",
+            "vic:CdEntVigiCru": "7",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Seine moyenne-Yonne-Loing",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=7&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=7&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/8",
+            "vic:CdEntVigiCru": "8",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Vilaine-Côtiers Bretons",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=8&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=8&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/9",
+            "vic:CdEntVigiCru": "9",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Maine-Loire aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=9&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=9&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/10",
+            "vic:CdEntVigiCru": "10",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Loire-Cher-Indre",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=10&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=10&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/11",
+            "vic:CdEntVigiCru": "11",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Allier",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=11&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=11&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/12",
+            "vic:CdEntVigiCru": "12",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Vienne-Charente-Atlantique (bassin Vienne)",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=12&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=12&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/14",
+            "vic:CdEntVigiCru": "14",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Gironde-Adour-Dordogne (bassin Dordogne)",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=14&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=14&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/18",
+            "vic:CdEntVigiCru": "18",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Rhône amont-Saône",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=18&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=18&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/19",
+            "vic:CdEntVigiCru": "19",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Alpes du Nord",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=19&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=19&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/20",
+            "vic:CdEntVigiCru": "20",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Grand Delta",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=20&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=20&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/21",
+            "vic:CdEntVigiCru": "21",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Méditerranée Ouest",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=21&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=21&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/22",
+            "vic:CdEntVigiCru": "22",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Méditerranée Est (bassin continental)",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=22&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=22&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/23",
+            "vic:CdEntVigiCru": "23",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Gironde-Adour-Dordogne (bassin Gironde et Adour)",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=23&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=23&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/24",
+            "vic:CdEntVigiCru": "24",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Vienne-Charente-Atlantique (bassin Charente-Atlantique)",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=24&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=24&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/25",
+            "vic:CdEntVigiCru": "25",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Garonne-Tarn-Lot",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=25&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=25&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/26",
+            "vic:CdEntVigiCru": "26",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Méditerranée Est (bassin Corse)",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=26&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=26&amp;TypEntVigiCru=5"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/973",
+            "vic:CdEntVigiCru": "973",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "Guyane",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=973&amp;TypEntVigiCru=5",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=973&amp;TypEntVigiCru=5"
+        }
+    ]
+}</value>
+  </data>
+  <data name="TerEntVigiCru_CdEntVigiCru25" xml:space="preserve">
+    <value>{
+    "@context": {
+        "mat": "http://id.eaufrance.fr/ddd/mat/3.1/",
+        "int": "http://id.eaufrance.fr/ddd/int/2/",
+        "vic": "http://id.eaufrance.fr/ddd/vic/1.1/",
+        "com": "http://id.eaufrance.fr/ddd/com/4/",
+        "hyd": "http://id.eaufrance.fr/ddd/hyd/2.3/",
+        "eth": "http://id.eaufrance.fr/ddd/eth/2/",
+        "zon": "http://id.eaufrance.fr/ddd/zon/2.2/",
+        "mdo": "http://id.eaufrance.fr/ddd/mdo/1.4/"
+    },
+    "mat:Scenario": {
+        "Flux": {
+            "Version": "béta",
+            "DateRevision": "2019-09-16T11:30:00"
+        },
+        "mat:CodeScenario": "VICGeo",
+        "mat:VersionScenario": "1beta",
+        "mat:NomScenario": "Vigilance crues aux formats géo",
+        "DateHeureCreationFichier": "2021-01-23T08:23:42+00:00",
+        "Emetteur": {
+            "@id": "http://id.eaufrance.fr/int/1537",
+            "int:CdIntervenant": "1537"
+        }
+    },
+    "count_TerEntVigiCru": 1,
+    "vic:TerEntVigiCru": {
+        "@id": "http://id.eaufrance.fr/TerEntVigiCru/25",
+        "vic:CdEntVigiCru": "25",
+        "vic:TypEntVigiCru": "5",
+        "vic:LbEntVigiCru": "Garonne-Tarn-Lot",
+        "vic:DtHrCreatEntVigiCru": "",
+        "vic:DtHrMajEntVigiCru": "",
+        "vic:StEntVigiCru": "Validé",
+        "vic:administre": {
+            "@id": "http://id.eaufrance.fr/int/ARenseigner",
+            "int:CdIntervenant": ""
+        },
+        "vic:aPourTCC": {
+            "@id": "http://id.eaufrance.fr/TCC/ARenseigner",
+            "vic:CdTCC": ""
+        },
+        "vic:aPourDistrictHydro": {
+            "@id": "http://id.eaufrance.fr/mdo/ARenseigner",
+            "mdo:CdEuDistrict": ""
+        },
+        "count_aNMoinsUn": 20,
+        "vic:aNMoinsUn": [
+            {
+                "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP10",
+                "vic.CdEntVigiCru": "MP10",
+                "vic.TypEntVigiCru": "8",
+                "vic.LbEntVigiCru": "Garonne marmandaise",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MP10&amp;TypEntVigiCru=8",
+                "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MP10&amp;TypEntVigiCru=8"
+            },
+            {
+                "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP1",
+                "vic.CdEntVigiCru": "MP1",
+                "vic.TypEntVigiCru": "8",
+                "vic.LbEntVigiCru": "Ariège - Hers vif",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MP1&amp;TypEntVigiCru=8",
+                "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MP1&amp;TypEntVigiCru=8"
+            },
+            {
+                "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP11",
+                "vic.CdEntVigiCru": "MP11",
+                "vic.TypEntVigiCru": "8",
+                "vic.LbEntVigiCru": "Hers Mort",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MP11&amp;TypEntVigiCru=8",
+                "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MP11&amp;TypEntVigiCru=8"
+            },
+            {
+                "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP2",
+                "vic.CdEntVigiCru": "MP2",
+                "vic.TypEntVigiCru": "8",
+                "vic.LbEntVigiCru": "Ger - Salat",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MP2&amp;TypEntVigiCru=8",
+                "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MP2&amp;TypEntVigiCru=8"
+            },
+            {
+                "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP3",
+                "vic.CdEntVigiCru": "MP3",
+                "vic.TypEntVigiCru": "8",
+                "vic.LbEntVigiCru": "Arize - Lèze",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MP3&amp;TypEntVigiCru=8",
+                "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MP3&amp;TypEntVigiCru=8"
+            },
+            {
+                "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP4",
+                "vic.CdEntVigiCru": "MP4",
+                "vic.TypEntVigiCru": "8",
+                "vic.LbEntVigiCru": "Garonne amont - Nestes",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MP4&amp;TypEntVigiCru=8",
+                "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MP4&amp;TypEntVigiCru=8"
+            },
+            {
+                "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP6",
+                "vic.CdEntVigiCru": "MP6",
+                "vic.TypEntVigiCru": "8",
+                "vic.LbEntVigiCru": "Garonne toulousaine",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MP6&amp;TypEntVigiCru=8",
+                "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MP6&amp;TypEntVigiCru=8"
+            },
+            {
+                "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP7",
+                "vic.CdEntVigiCru": "MP7",
+                "vic.TypEntVigiCru": "8",
+                "vic.LbEntVigiCru": "Garonne agenaise",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MP7&amp;TypEntVigiCru=8",
+                "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MP7&amp;TypEntVigiCru=8"
+            },
+            {
+                "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP8",
+                "vic.CdEntVigiCru": "MP8",
+                "vic.TypEntVigiCru": "8",
+                "vic.LbEntVigiCru": "Arrats - Gimone - Save - Touch",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MP8&amp;TypEntVigiCru=8",
+                "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MP8&amp;TypEntVigiCru=8"
+            },
+            {
+                "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP9",
+                "vic.CdEntVigiCru": "MP9",
+                "vic.TypEntVigiCru": "8",
+                "vic.LbEntVigiCru": "Baïse - Gélise - Gers",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MP9&amp;TypEntVigiCru=8",
+                "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MP9&amp;TypEntVigiCru=8"
+            },
+            {
+                "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL1",
+                "vic.CdEntVigiCru": "TL1",
+                "vic.TypEntVigiCru": "8",
+                "vic.LbEntVigiCru": "Agout - Thoré",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=TL1&amp;TypEntVigiCru=8",
+                "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=TL1&amp;TypEntVigiCru=8"
+            },
+            {
+                "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL10",
+                "vic.CdEntVigiCru": "TL10",
+                "vic.TypEntVigiCru": "8",
+                "vic.LbEntVigiCru": "Lot amont - Truyère",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=TL10&amp;TypEntVigiCru=8",
+                "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=TL10&amp;TypEntVigiCru=8"
+            },
+            {
+                "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL11",
+                "vic.CdEntVigiCru": "TL11",
+                "vic.TypEntVigiCru": "8",
+                "vic.LbEntVigiCru": "Lot moyen",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=TL11&amp;TypEntVigiCru=8",
+                "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=TL11&amp;TypEntVigiCru=8"
+            },
+            {
+                "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL12",
+                "vic.CdEntVigiCru": "TL12",
+                "vic.TypEntVigiCru": "8",
+                "vic.LbEntVigiCru": "Célé",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=TL12&amp;TypEntVigiCru=8",
+                "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=TL12&amp;TypEntVigiCru=8"
+            },
+            {
+                "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL13",
+                "vic.CdEntVigiCru": "TL13",
+                "vic.TypEntVigiCru": "8",
+                "vic.LbEntVigiCru": "Lot aval",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=TL13&amp;TypEntVigiCru=8",
+                "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=TL13&amp;TypEntVigiCru=8"
+            },
+            {
+                "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL3",
+                "vic.CdEntVigiCru": "TL3",
+                "vic.TypEntVigiCru": "8",
+                "vic.LbEntVigiCru": "Haut Tarn",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=TL3&amp;TypEntVigiCru=8",
+                "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=TL3&amp;TypEntVigiCru=8"
+            },
+            {
+                "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL5",
+                "vic.CdEntVigiCru": "TL5",
+                "vic.TypEntVigiCru": "8",
+                "vic.LbEntVigiCru": "Tarn moyen",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=TL5&amp;TypEntVigiCru=8",
+                "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=TL5&amp;TypEntVigiCru=8"
+            },
+            {
+                "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL6",
+                "vic.CdEntVigiCru": "TL6",
+                "vic.TypEntVigiCru": "8",
+                "vic.LbEntVigiCru": "Aveyron - Viaur",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=TL6&amp;TypEntVigiCru=8",
+                "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=TL6&amp;TypEntVigiCru=8"
+            },
+            {
+                "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL9",
+                "vic.CdEntVigiCru": "TL9",
+                "vic.TypEntVigiCru": "8",
+                "vic.LbEntVigiCru": "Tarn aval",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=TL9&amp;TypEntVigiCru=8",
+                "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=TL9&amp;TypEntVigiCru=8"
+            },
+            {
+                "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL4",
+                "vic.CdEntVigiCru": "TL4",
+                "vic.TypEntVigiCru": "8",
+                "vic.LbEntVigiCru": "Dourdou - Sorgues - Rance",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=TL4&amp;TypEntVigiCru=8",
+                "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=TL4&amp;TypEntVigiCru=8"
+            }
+        ],
+        "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=25&amp;TypEntVigiCru=5"
+    }
+}</value>
+  </data>
+</root>

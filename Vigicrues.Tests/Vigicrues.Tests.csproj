@@ -26,4 +26,28 @@
     <ProjectReference Include="..\Vigicrues\Vigicrues.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Resources\HttpResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>HttpResources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\HttpResponses.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>HttpResponses.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\HttpResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>HttpResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\HttpResponses.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>HttpResponses.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>

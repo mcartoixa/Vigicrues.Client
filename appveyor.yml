@@ -7,9 +7,12 @@ environment:
 
 install:
   - cmd: CALL build\SetEnv.bat
+  - cmd: dotnet tool restore
+  # CI specific installations
+  - cmd: dotnet tool update Codecov.Tool --version 1.12.4
   - cmd: dotnet add Vigicrues.Tests\Vigicrues.Tests.csproj package Appveyor.TestLogger --version 2.0.0
 cache:
-  - .tmp -> appveyor.yml, build\versions.env
+  - .tmp -> appveyor.yml, global.json, build\versions.env
 
 
 
@@ -26,6 +29,10 @@ artifacts:
   - path: tmp\*results.xml
   - path: build.log
 
+
+
+on_success:
+  - cmd: dotnet tool run codecov -f "tmp\*-cobertura-results.xml"
 
 
 on_failure:

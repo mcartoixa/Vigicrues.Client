@@ -1,0 +1,10 @@
+codecov:
+  token: "01a0dab3-7030-46e2-bd13-831d0c73f53c"
+  ci:
+    - "appveyor"
+  require_ci_to_pass: no
+
+coverage:
+  precision: 2
+  round: down
+  range: "15...100"

@@ -45,6 +45,13 @@ for i in "$@"; do
     shift
 done
 
+
+
+dotnet tool restore
+if [ $? -ne 0 ]; then
+    failed
+fi
+
 dotnet msbuild $_PROJECT /nologo /t:$_TARGET /m /r /fl /flp:logfile=build.log;verbosity=$_VERBOSITY;encoding=UTF-8
 if [ $? -ne 0 ]; then
     failed

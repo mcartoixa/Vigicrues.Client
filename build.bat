@@ -37,6 +37,9 @@ GOTO END
 :: Builds the project
 :: -------------------------------------------------------------------
 :BUILD
+dotnet.exe tool restore
+IF ERRORLEVEL 1 GOTO END_ERROR
+
 dotnet.exe msbuild %_PROJECT% /nologo /t:%_TARGET% /m /r /fl /flp:logfile=build.log;verbosity=%_VERBOSITY%;encoding=UTF-8  %_LOGGERS% /nr:False /v:normal
 IF ERRORLEVEL 1 GOTO END_ERROR
 GOTO END

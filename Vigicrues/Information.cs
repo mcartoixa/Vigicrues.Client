@@ -15,7 +15,7 @@ namespace Vigicrues
         public string Reference { get; set; } = string.Empty;
         /// <summary>Date when the information was produced.</summary>
         [JsonPropertyName("vic:DtHrInfoVigiCru")]
-        public DateTimeOffset Produced { get; set; }
+        public DateTimeOffset? Produced { get; set; }
         /// <summary>Type of update for this information.</summary>
         [JsonPropertyName("vic:TypInfoVigiCru")]
         public UpdateType UpdateType { get; set; }

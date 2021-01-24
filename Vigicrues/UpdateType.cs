@@ -1,8 +1,11 @@
-﻿namespace Vigicrues
+﻿using System.Text.Json.Serialization;
+
+namespace Vigicrues
 {
 
     /// <summary>Update type.</summary>
     /// <seealso href="http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:844::::::referentiel:3.1:html" />
+    [JsonConverter(typeof(Serialization.EnumerationJsonConverter<UpdateType>))]
     public enum UpdateType
     {
         /// <summary>Unknown type.</summary>

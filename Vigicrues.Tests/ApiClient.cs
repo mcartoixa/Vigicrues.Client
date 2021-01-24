@@ -31,6 +31,61 @@ namespace Vigicrues
             return ret;
         }
 
+        [Theory]
+        [InlineData(InformationMode.Normal)]
+        [InlineData(InformationMode.Detailed)]
+        public async void GetCountiesInformationAsync_ShouldReturnInformation(InformationMode mode)
+        {
+            // Arrange
+            var fakeHttpMessageHandler = _CreateFakeHttpMessageHandler(HttpStatusCode.OK, Resources.HttpResponses.InfoVigiCru_TypEntVigiCru4);
+            var client = new ApiClient(fakeHttpMessageHandler.Object, true);
+
+            // Act
+            var result = await client.GetCountiesInformationAsync(mode);
+
+            // Assert
+            Assert.NotNull(result);
+
+            string modeParameter = (mode == InformationMode.Detailed) ? "&mode=detail" : string.Empty;
+            fakeHttpMessageHandler.Protected().Verify(
+               "SendAsync",
+               Times.Exactly(1),
+               ItExpr.Is<HttpRequestMessage>(req =>
+                  req.Method == HttpMethod.Get && req.RequestUri == new Uri($"https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld/?TypEntVigiCru=4{modeParameter}")
+               ),
+               ItExpr.IsAny<CancellationToken>()
+            );
+        }
+
+        [Theory]
+        [InlineData(InformationMode.Normal)]
+        [InlineData(InformationMode.Detailed)]
+        public async void GetMetropolitanAreaInformationAsync_ShouldReturnInformation(InformationMode mode)
+        {
+            // Arrange
+            var fakeHttpMessageHandler = _CreateFakeHttpMessageHandler(
+                HttpStatusCode.OK,
+                (mode == InformationMode.Detailed) ? Resources.HttpResponses.InfoVigiCru_TypEntVigiCru2_detail : Resources.HttpResponses.InfoVigiCru_TypEntVigiCru2
+            );
+            var client = new ApiClient(fakeHttpMessageHandler.Object, true);
+
+            // Act
+            var result = await client.GetMetropolitanAreaInformationAsync(mode);
+
+            // Assert
+            Assert.NotNull(result);
+
+            string modeParameter = (mode == InformationMode.Detailed) ? "&mode=detail" : string.Empty;
+            fakeHttpMessageHandler.Protected().Verify(
+               "SendAsync",
+               Times.Exactly(1),
+               ItExpr.Is<HttpRequestMessage>(req =>
+                  req.Method == HttpMethod.Get && req.RequestUri == new Uri($"https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld/?TypEntVigiCru=2{modeParameter}")
+               ),
+               ItExpr.IsAny<CancellationToken>()
+            );
+        }
+
         [Fact]
         public async void GetSectionsAsync_ShouldReturnAListOfSections()
         {
@@ -76,6 +131,33 @@ namespace Vigicrues
                Times.Exactly(1),
                ItExpr.Is<HttpRequestMessage>(req =>
                   req.Method == HttpMethod.Get && req.RequestUri == new Uri("https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld/?CdEntVigiCru=AP1&TypEntVigiCru=8")
+               ),
+               ItExpr.IsAny<CancellationToken>()
+            );
+        }
+
+        [Theory]
+        [InlineData(InformationMode.Normal)]
+        [InlineData(InformationMode.Detailed)]
+        public async void GetSectionInformationAsync_ShouldReturnInformation(InformationMode mode)
+        {
+            // Arrange
+            var fakeHttpMessageHandler = _CreateFakeHttpMessageHandler(HttpStatusCode.OK, Resources.HttpResponses.InfoVigiCru_CdEntVigiCruAP1);
+            var client = new ApiClient(fakeHttpMessageHandler.Object, true);
+            var input = new SectionEntity("AP1");
+
+            // Act
+            var result = await client.GetSectionInformationAsync(input, mode);
+
+            // Assert
+            Assert.NotNull(result);
+
+            string modeParameter = (mode == InformationMode.Detailed) ? "&mode=detail" : string.Empty;
+            fakeHttpMessageHandler.Protected().Verify(
+               "SendAsync",
+               Times.Exactly(1),
+               ItExpr.Is<HttpRequestMessage>(req =>
+                  req.Method == HttpMethod.Get && req.RequestUri == new Uri($"https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld/?CdEntVigiCru=AP1&TypEntVigiCru=8{modeParameter}")
                ),
                ItExpr.IsAny<CancellationToken>()
             );
@@ -199,6 +281,36 @@ namespace Vigicrues
                Times.Exactly(1),
                ItExpr.Is<HttpRequestMessage>(req =>
                   req.Method == HttpMethod.Get && req.RequestUri == new Uri("https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld/?CdEntVigiCru=25&TypEntVigiCru=5")
+               ),
+               ItExpr.IsAny<CancellationToken>()
+            );
+        }
+
+        [Theory]
+        [InlineData(InformationMode.Normal)]
+        [InlineData(InformationMode.Detailed)]
+        public async void GetTerritoryInformationAsync_ShouldReturnInformation(InformationMode mode)
+        {
+            // Arrange
+            var fakeHttpMessageHandler = _CreateFakeHttpMessageHandler(
+                HttpStatusCode.OK,
+                (mode == InformationMode.Detailed) ? Resources.HttpResponses.InfoVigiCru_CdEntVigiCru1_detail : Resources.HttpResponses.InfoVigiCru_CdEntVigiCru1
+            );
+            var client = new ApiClient(fakeHttpMessageHandler.Object, true);
+            var input = new TerritoryEntity("1");
+
+            // Act
+            var result = await client.GetTerritoryInformationAsync(input, mode);
+
+            // Assert
+            Assert.NotNull(result);
+
+            string modeParameter = (mode == InformationMode.Detailed) ? "&mode=detail" : string.Empty;
+            fakeHttpMessageHandler.Protected().Verify(
+               "SendAsync",
+               Times.Exactly(1),
+               ItExpr.Is<HttpRequestMessage>(req =>
+                  req.Method == HttpMethod.Get && req.RequestUri == new Uri($"https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld/?CdEntVigiCru=1&TypEntVigiCru=5{modeParameter}")
                ),
                ItExpr.IsAny<CancellationToken>()
             );

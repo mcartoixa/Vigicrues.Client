@@ -16,6 +16,13 @@ namespace Vigicrues
     public class ApiClient
     {
 
+        internal class InfoVigiCru
+        {
+
+            [JsonPropertyName("vic:InfoVigiCru")]
+            public Information Information { get; set; } = new Information();
+        }
+
         internal class StaEntVigiCruList
         {
 
@@ -73,7 +80,7 @@ namespace Vigicrues
 
             _JsonSerializerOptions = new JsonSerializerOptions {
                 Converters = {
-                    new Serialization.EmptyStringAsNullJsonConverter<DateTimeOffset>()
+                    new Serialization.DateTimeOffsetJsonConverter()
                 }
             };
         }
@@ -92,6 +99,24 @@ namespace Vigicrues
         public ApiClient() :
             this(new HttpClient())
         { }
+
+        /// <summary>Gets the flooding information about the metropolitan area.</summary>
+        /// <param name="mode">The mode in which to retrieve the information.</param>
+        /// <param name="cancellationToken">A cancellation token.</param>
+        /// <returns>The detailed information about the metropolitan area.</returns>
+        public Task<Information> GetMetropolitanAreaInformationAsync(InformationMode mode = InformationMode.Normal, CancellationToken cancellationToken = default(CancellationToken))
+        {
+            return _GetEntitiesInformationAsync(EntityType.MetropolitanArea, mode, cancellationToken);
+        }
+
+        /// <summary>Gets the flooding information about the counties.</summary>
+        /// <param name="mode">The mode in which to retrieve the information.</param>
+        /// <param name="cancellationToken">A cancellation token.</param>
+        /// <returns>The detailed information about the counties.</returns>
+        public Task<Information> GetCountiesInformationAsync(InformationMode mode = InformationMode.Normal, CancellationToken cancellationToken = default(CancellationToken))
+        {
+            return _GetEntitiesInformationAsync(EntityType.County, mode, cancellationToken);
+        }
 
         /// <summary>Gets all the sections concerned by the Vigicrues API.</summary>
         /// <remarks>Every entity is returned with minimal information.</remarks>
@@ -122,6 +147,16 @@ namespace Vigicrues
 
                 return result.Section;
             }
+        }
+
+        /// <summary>Gets the flooding information about the specified <paramref name="section"/>.</summary>
+        /// <param name="section">The section to get the information about.</param>
+        /// <param name="mode">The mode in which to retrieve the information.</param>
+        /// <param name="cancellationToken">A cancellation token.</param>
+        /// <returns>The detailed information about the specified <paramref name="section"/>.</returns>
+        public Task<Information> GetSectionInformationAsync(SectionEntity section, InformationMode mode = InformationMode.Normal, CancellationToken cancellationToken = default(CancellationToken))
+        {
+            return _GetEntityInformationAsync(section, mode, cancellationToken);
         }
 
         /// <summary>Gets all the sections concerned by the Vigicrues API.</summary>
@@ -201,6 +236,48 @@ namespace Vigicrues
             TerEntVigiCru result = JsonSerializer.Deserialize<TerEntVigiCru>(json, _JsonSerializerOptions) ?? new TerEntVigiCru();
 
             return result.Territory;
+        }
+
+        /// <summary>Gets the flooding information about the specified <paramref name="territory"/>.</summary>
+        /// <param name="territory">The territory to get the information about.</param>
+        /// <param name="mode">The mode in which to retrieve the information.</param>
+        /// <param name="cancellationToken">A cancellation token.</param>
+        /// <returns>The detailed information about the specified <paramref name="territory"/>.</returns>
+        public Task<Information> GetTerritoryInformationAsync(TerritoryEntity territory, InformationMode mode = InformationMode.Normal, CancellationToken cancellationToken = default(CancellationToken))
+        {
+            return _GetEntityInformationAsync(territory, mode, cancellationToken);
+        }
+
+        /// <summary>Gets the flooding information about the specified <paramref name="entityType" />.</summary>
+        /// <param name="entityType">The type of entities to get information about.</param>
+        /// <param name="mode">The mode in which to retrieve the information.</param>
+        /// <param name="cancellationToken">A cancellation token.</param>
+        /// <returns>The detailed information about the specified <paramref name="entityType" />.</returns>
+        private async Task<Information> _GetEntitiesInformationAsync(EntityType entityType, InformationMode mode = InformationMode.Normal, CancellationToken cancellationToken = default(CancellationToken))
+        {
+            string modeParameter = (mode == InformationMode.Detailed) ? "&mode=detail" : string.Empty;
+            using (Stream stream = await _Client.GetStreamAsync($"InfoVigiCru.jsonld/?TypEntVigiCru={entityType:d}{modeParameter}"))
+            {
+                InfoVigiCru result = await JsonSerializer.DeserializeAsync<InfoVigiCru>(stream, _JsonSerializerOptions, cancellationToken) ?? new InfoVigiCru();
+
+                return result.Information;
+            }
+        }
+
+        /// <summary>Gets the flooding information about the specified <paramref name="entity" />.</summary>
+        /// <param name="entity">The entity to get information about.</param>
+        /// <param name="mode">The mode in which to retrieve the information.</param>
+        /// <param name="cancellationToken">A cancellation token.</param>
+        /// <returns>The detailed information about the specified <paramref name="entity" />.</returns>
+        private async Task<Information> _GetEntityInformationAsync(Entity entity, InformationMode mode = InformationMode.Normal, CancellationToken cancellationToken = default(CancellationToken))
+        {
+            string modeParameter = (mode == InformationMode.Detailed) ? "&mode=detail" : string.Empty;
+            using (Stream stream = await _Client.GetStreamAsync($"InfoVigiCru.jsonld/?CdEntVigiCru={entity.Reference}&TypEntVigiCru={entity.EntityType:d}{modeParameter}"))
+            {
+                InfoVigiCru result = await JsonSerializer.DeserializeAsync<InfoVigiCru>(stream, _JsonSerializerOptions, cancellationToken) ?? new InfoVigiCru();
+
+                return result.Information;
+            }
         }
 
         private readonly HttpClient _Client;

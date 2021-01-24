@@ -117,6 +117,4092 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="InfoVigiCru_CdEntVigiCru1" xml:space="preserve">
+    <value>{
+    "@context": {
+        "mat": "http://id.eaufrance.fr/ddd/mat/3.1/",
+        "int": "http://id.eaufrance.fr/ddd/int/2/",
+        "vic": "http://id.eaufrance.fr/ddd/vic/1.1/",
+        "com": "http://id.eaufrance.fr/ddd/com/4/",
+        "hyd": "http://id.eaufrance.fr/ddd/hyd/2.3/",
+        "eth": "http://id.eaufrance.fr/ddd/eth/2/",
+        "zon": "http://id.eaufrance.fr/ddd/zon/2.2/",
+        "mdo": "http://id.eaufrance.fr/ddd/mdo/1.4/"
+    },
+    "mat:Scenario": {
+        "Flux": {
+            "Version": "béta",
+            "DateRevision": "2019-09-16T11:00:00"
+        },
+        "mat:CodeScenario": "VICGeo",
+        "mat:VersionScenario": "1beta",
+        "mat:NomScenario": "Vigilance crues aux formats géo",
+        "DateHeureCreationFichier": "2021-01-24T07:21:22+00:00",
+        "Emetteur": {
+            "@id": "http://id.eaufrance.fr/int/1537",
+            "int:CdIntervenant": "1537"
+        }
+    },
+    "vic:InfoVigiCru": {
+        "vic:RefInfoVigiCru": "23012021_16",
+        "vic:TypInfoVigiCru": "1",
+        "vic:DtHrInfoVigiCru": "2021-01-23T13:58:40+0100",
+        "vic:DtHrSuivInfoVigiCru": "2021-01-24T10:00:00+0100",
+        "vic:NivInfoVigiCru": "2",
+        "vic:EstNivCalInfoVigiCru": true,
+        "vic:StInfoVigiCru": "4",
+        "vic:SituActuInfoVigiCru": "Une perturbation pluvio-neigeuse traverse la région d'ouest en est dans la journée de ce samedi. Les cumuls resteront faibles. Les bassins sont extrêmement réactifs suite aux pluies de ces dernières semaines et les cours d'eau oscillent au gré des précipitations.  Sur la Plaine de la Lys, les niveaux restent hauts mais, sur les autres bassins, les niveaux devraient rester en dessous des niveaux de mise en vigilance.",
+        "vic:ConsInfoVigiCru": "Soyez vigilant si vous vous situez à proximité d'un cours d'eau ou d'une zone habituellement inondable. Conformez-vous à la signalisation routière.",
+        "vic:ConseqInfoVigiCru": "Tenez-vous informé de la situation. Les premiers débordements peuvent être constatés. Certains cours d'eau peuvent connaître une montée rapide des eaux.",
+        "vic:porteSurLEntite": {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/1",
+            "vic:CdEntVigiCru": "1",
+            "vic:TypEntVigiCru": "5"
+        },
+        "vic:aEteProduitePar": {
+            "@id": "http://id.eaufrance.fr/int/ARenseigner",
+            "vic:CdIntervenant": "ARenseigner",
+            "vic:LbIntervenant": "Service de Prévision des Crues Artois-Picardie"
+        }
+    }
+}</value>
+  </data>
+  <data name="InfoVigiCru_CdEntVigiCru1_detail" xml:space="preserve">
+    <value>{
+    "@context": {
+        "mat": "http://id.eaufrance.fr/ddd/mat/3.1/",
+        "int": "http://id.eaufrance.fr/ddd/int/2/",
+        "vic": "http://id.eaufrance.fr/ddd/vic/1.1/",
+        "com": "http://id.eaufrance.fr/ddd/com/4/",
+        "hyd": "http://id.eaufrance.fr/ddd/hyd/2.3/",
+        "eth": "http://id.eaufrance.fr/ddd/eth/2/",
+        "zon": "http://id.eaufrance.fr/ddd/zon/2.2/",
+        "mdo": "http://id.eaufrance.fr/ddd/mdo/1.4/"
+    },
+    "mat:Scenario": {
+        "Flux": {
+            "Version": "béta",
+            "DateRevision": "2019-09-16T11:00:00"
+        },
+        "mat:CodeScenario": "VICGeo",
+        "mat:VersionScenario": "1beta",
+        "mat:NomScenario": "Vigilance crues aux formats géo",
+        "DateHeureCreationFichier": "2021-01-24T07:21:24+00:00",
+        "Emetteur": {
+            "@id": "http://id.eaufrance.fr/int/1537",
+            "int:CdIntervenant": "1537"
+        }
+    },
+    "vic:InfoVigiCru": {
+        "vic:RefInfoVigiCru": "23012021_16",
+        "vic:TypInfoVigiCru": "1",
+        "vic:DtHrInfoVigiCru": "2021-01-23T13:58:40+0100",
+        "vic:DtHrSuivInfoVigiCru": "2021-01-24T10:00:00+0100",
+        "vic:NivInfoVigiCru": "2",
+        "vic:EstNivCalInfoVigiCru": true,
+        "vic:StInfoVigiCru": "4",
+        "vic:SituActuInfoVigiCru": "Une perturbation pluvio-neigeuse traverse la région d'ouest en est dans la journée de ce samedi. Les cumuls resteront faibles. Les bassins sont extrêmement réactifs suite aux pluies de ces dernières semaines et les cours d'eau oscillent au gré des précipitations.  Sur la Plaine de la Lys, les niveaux restent hauts mais, sur les autres bassins, les niveaux devraient rester en dessous des niveaux de mise en vigilance.",
+        "vic:ConsInfoVigiCru": "Soyez vigilant si vous vous situez à proximité d'un cours d'eau ou d'une zone habituellement inondable. Conformez-vous à la signalisation routière.",
+        "vic:ConseqInfoVigiCru": "Tenez-vous informé de la situation. Les premiers débordements peuvent être constatés. Certains cours d'eau peuvent connaître une montée rapide des eaux.",
+        "vic:porteSurLEntite": {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/1",
+            "vic:CdEntVigiCru": "1",
+            "vic:TypEntVigiCru": "5"
+        },
+        "vic:aEteProduitePar": {
+            "@id": "http://id.eaufrance.fr/int/ARenseigner",
+            "vic:CdIntervenant": "ARenseigner",
+            "vic:LbIntervenant": "Service de Prévision des Crues Artois-Picardie"
+        },
+        "vic:estLaSyntheseDe": [
+            {
+                "vic:RefInfoVigiCru": "API_23012021_16_01",
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP6",
+                    "vic:CdEntVigiCru": "AP6",
+                    "vic:TypEntVigiCru": "8",
+                    "vic:LbEntVigiCru": "Liane",
+                    "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP6&amp;TypEntVigiCru=8",
+                    "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP6&amp;TypEntVigiCru=8"
+                }
+            },
+            {
+                "vic:RefInfoVigiCru": "API_23012021_16_01",
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP12",
+                    "vic:CdEntVigiCru": "AP12",
+                    "vic:TypEntVigiCru": "8",
+                    "vic:LbEntVigiCru": "Hem",
+                    "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP12&amp;TypEntVigiCru=8",
+                    "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP12&amp;TypEntVigiCru=8"
+                }
+            },
+            {
+                "vic:RefInfoVigiCru": "API_23012021_16_01",
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP5",
+                    "vic:CdEntVigiCru": "AP5",
+                    "vic:TypEntVigiCru": "8",
+                    "vic:LbEntVigiCru": "Aa",
+                    "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP5&amp;TypEntVigiCru=8",
+                    "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP5&amp;TypEntVigiCru=8"
+                }
+            },
+            {
+                "vic:RefInfoVigiCru": "API_23012021_16_01",
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP13",
+                    "vic:CdEntVigiCru": "AP13",
+                    "vic:TypEntVigiCru": "8",
+                    "vic:LbEntVigiCru": "Lys amont - Laquette",
+                    "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP13&amp;TypEntVigiCru=8",
+                    "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP13&amp;TypEntVigiCru=8"
+                }
+            },
+            {
+                "vic:RefInfoVigiCru": "API_23012021_16_01",
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP15",
+                    "vic:CdEntVigiCru": "AP15",
+                    "vic:TypEntVigiCru": "8",
+                    "vic:LbEntVigiCru": "Lawe - Clarence amont",
+                    "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP15&amp;TypEntVigiCru=8",
+                    "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP15&amp;TypEntVigiCru=8"
+                }
+            },
+            {
+                "vic:RefInfoVigiCru": "API_23012021_16_01",
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP14",
+                    "vic:CdEntVigiCru": "AP14",
+                    "vic:TypEntVigiCru": "8",
+                    "vic:LbEntVigiCru": "Lys plaine",
+                    "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP14&amp;TypEntVigiCru=8",
+                    "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP14&amp;TypEntVigiCru=8"
+                }
+            },
+            {
+                "vic:RefInfoVigiCru": "API_23012021_16_01",
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP2",
+                    "vic:CdEntVigiCru": "AP2",
+                    "vic:TypEntVigiCru": "8",
+                    "vic:LbEntVigiCru": "Helpe mineure",
+                    "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP2&amp;TypEntVigiCru=8",
+                    "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP2&amp;TypEntVigiCru=8"
+                }
+            },
+            {
+                "vic:RefInfoVigiCru": "API_23012021_16_01",
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP3",
+                    "vic:CdEntVigiCru": "AP3",
+                    "vic:TypEntVigiCru": "8",
+                    "vic:LbEntVigiCru": "Helpe majeure",
+                    "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP3&amp;TypEntVigiCru=8",
+                    "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP3&amp;TypEntVigiCru=8"
+                }
+            },
+            {
+                "vic:RefInfoVigiCru": "API_23012021_16_01",
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP4",
+                    "vic:CdEntVigiCru": "AP4",
+                    "vic:TypEntVigiCru": "8",
+                    "vic:LbEntVigiCru": "Solre",
+                    "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP4&amp;TypEntVigiCru=8",
+                    "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP4&amp;TypEntVigiCru=8"
+                }
+            },
+            {
+                "vic:RefInfoVigiCru": "API_23012021_16_01",
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP1",
+                    "vic:CdEntVigiCru": "AP1",
+                    "vic:TypEntVigiCru": "8",
+                    "vic:LbEntVigiCru": "Sambre",
+                    "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP1&amp;TypEntVigiCru=8",
+                    "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP1&amp;TypEntVigiCru=8"
+                }
+            },
+            {
+                "vic:RefInfoVigiCru": "API_23012021_16_01",
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP7",
+                    "vic:CdEntVigiCru": "AP7",
+                    "vic:TypEntVigiCru": "8",
+                    "vic:LbEntVigiCru": "Somme",
+                    "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP7&amp;TypEntVigiCru=8",
+                    "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP7&amp;TypEntVigiCru=8"
+                }
+            },
+            {
+                "vic:RefInfoVigiCru": "API_23012021_16_01",
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP16",
+                    "vic:CdEntVigiCru": "AP16",
+                    "vic:TypEntVigiCru": "8",
+                    "vic:LbEntVigiCru": "Canche",
+                    "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP16&amp;TypEntVigiCru=8",
+                    "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP16&amp;TypEntVigiCru=8"
+                }
+            }
+        ]
+    }
+}</value>
+  </data>
+  <data name="InfoVigiCru_CdEntVigiCruAP1" xml:space="preserve">
+    <value>{
+    "@context": {
+        "mat": "http://id.eaufrance.fr/ddd/mat/3.1/",
+        "int": "http://id.eaufrance.fr/ddd/int/2/",
+        "vic": "http://id.eaufrance.fr/ddd/vic/1.1/",
+        "com": "http://id.eaufrance.fr/ddd/com/4/",
+        "hyd": "http://id.eaufrance.fr/ddd/hyd/2.3/",
+        "eth": "http://id.eaufrance.fr/ddd/eth/2/",
+        "zon": "http://id.eaufrance.fr/ddd/zon/2.2/",
+        "mdo": "http://id.eaufrance.fr/ddd/mdo/1.4/"
+    },
+    "mat:Scenario": {
+        "Flux": {
+            "Version": "béta",
+            "DateRevision": "2019-09-16T11:00:00"
+        },
+        "mat:CodeScenario": "VICGeo",
+        "mat:VersionScenario": "1beta",
+        "mat:NomScenario": "Vigilance crues aux formats géo",
+        "DateHeureCreationFichier": "2021-01-24T07:21:26+00:00",
+        "Emetteur": {
+            "@id": "http://id.eaufrance.fr/int/1537",
+            "int:CdIntervenant": "1537"
+        }
+    },
+    "vic:InfoVigiCru": {
+        "vic:RefInfoVigiCru": "23012021_16",
+        "vic:TypInfoVigiCru": "1",
+        "vic:DtHrInfoVigiCru": "2021-01-23T13:58:40+0100",
+        "vic:DtHrSuivInfoVigiCru": "2021-01-24T10:00:00+0100",
+        "vic:NivInfoVigiCru": "1",
+        "vic:EstNivCalInfoVigiCru": false,
+        "vic:StInfoVigiCru": "4",
+        "vic:SituActuInfoVigiCru": "Pas de vigilance particulière requise.",
+        "vic:QualifInfoVigiCru": ""
+    }
+}</value>
+  </data>
+  <data name="InfoVigiCru_TypEntVigiCru2" xml:space="preserve">
+    <value>{
+    "@context": {
+        "mat": "http://id.eaufrance.fr/ddd/mat/3.1/",
+        "int": "http://id.eaufrance.fr/ddd/int/2/",
+        "vic": "http://id.eaufrance.fr/ddd/vic/1.1/",
+        "com": "http://id.eaufrance.fr/ddd/com/4/",
+        "hyd": "http://id.eaufrance.fr/ddd/hyd/2.3/",
+        "eth": "http://id.eaufrance.fr/ddd/eth/2/",
+        "zon": "http://id.eaufrance.fr/ddd/zon/2.2/",
+        "mdo": "http://id.eaufrance.fr/ddd/mdo/1.4/"
+    },
+    "mat:Scenario": {
+        "Flux": {
+            "Version": "béta",
+            "DateRevision": "2019-09-16T11:00:00"
+        },
+        "mat:CodeScenario": "VICGeo",
+        "mat:VersionScenario": "1beta",
+        "mat:NomScenario": "Vigilance crues aux formats géo",
+        "DateHeureCreationFichier": "2021-01-24T07:20:48+00:00",
+        "Emetteur": {
+            "@id": "http://id.eaufrance.fr/int/1537",
+            "int:CdIntervenant": "1537"
+        }
+    },
+    "vic:InfoVigiCru": {
+        "vic:RefInfoVigiCru": "23012021_16",
+        "vic:TypInfoVigiCru": "2",
+        "vic:DtHrInfoVigiCru": "2021-01-24T08:16:03+0100",
+        "vic:DtHrSuivInfoVigiCru": "2021-01-24T10:00:00+0100",
+        "vic:NivInfoVigiCru": "2",
+        "vic:URLPictoInfoVigiCru": "http://www.vigicrues.gouv.fr/services/picto/cruemax.php",
+        "vic:EstNivCalInfoVigiCru": true,
+        "vic:StInfoVigiCru": "4",
+        "vic:SituActuInfoVigiCru": "Les perturbations pluvieuses se succèdent sur le pays depuis plusieurs jours. Elles arrosent des sols très humides sur la quasi-totalité du territoire, générant des hausses de niveaux sur de nombreuses rivières. Cela justifie le maintien vigilance en jaune d'un nombre important de cours d'eau, en particulier sur le nord du pays et le centre-ouest. En ce samedi, de nouvelles précipitations faibles à modérées touchent une grande partie du pays, et plus particulièrement le sud-ouest, secteur sur lequel les pluies sont plus importantes. Dans cette zone géographique, des hausses significatives de niveau sont en cours et attendues, justifiant le passage/maintien de plusieurs tronçons en vigilance jaune en ce samedi après-midi. Pour des informations plus détaillées, veuillez consulter les bulletins des Services de Prévision des Crues concernés.",
+        "vic:EvolInfoVigiCru": "Les précipitations actuelles vont se poursuivre notamment sur le sud-ouest du pays de manière assez importante en fin journée de samedi. Elles vont perdurer sur la journée de dimanche avec des intensités moindre, mais viendront arroser des sols saturés. Les hausses du niveau des rivières vont donc se poursuivre durant tout le week-end sur ce secteur du sud-ouest, où les niveaux de premiers débordements devraient être atteints. Ailleurs sur le pays, les cumuls de précipitations encore attendus restent faibles, mais viendront alimenter des cours d'eau déjà en crue, ralentissant donc les propagations en cours voire générant de nouvelles hausses de niveaux. Pour des informations plus détaillées, consulter les bulletins des Services de Prévision des Crues concernés.",
+        "vic:ConsInfoVigiCru": "Soyez vigilant si vous vous situez à proximité d'un cours d'eau ou d'une zone habituellement inondable. Conformez-vous à la signalisation routière.",
+        "vic:ConseqInfoVigiCru": "Tenez-vous informé de la situation. Les premiers débordements peuvent être constatés. Certains cours d'eau peuvent connaître une montée rapide des eaux.",
+        "vic:porteSurLEntite": {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/A00",
+            "vic:CdEntVigiCru": "A00",
+            "vic:TypEntVigiCru": "2"
+        },
+        "vic:aEteProduitePar": {
+            "@id": "http://id.eaufrance.fr/int/1537",
+            "vic:CdIntervenant": "1537"
+        }
+    }
+}</value>
+  </data>
+  <data name="InfoVigiCru_TypEntVigiCru2_detail" xml:space="preserve">
+    <value>{
+    "@context": {
+        "mat": "http://id.eaufrance.fr/ddd/mat/3.1/",
+        "int": "http://id.eaufrance.fr/ddd/int/2/",
+        "vic": "http://id.eaufrance.fr/ddd/vic/1.1/",
+        "com": "http://id.eaufrance.fr/ddd/com/4/",
+        "hyd": "http://id.eaufrance.fr/ddd/hyd/2.3/",
+        "eth": "http://id.eaufrance.fr/ddd/eth/2/",
+        "zon": "http://id.eaufrance.fr/ddd/zon/2.2/",
+        "mdo": "http://id.eaufrance.fr/ddd/mdo/1.4/"
+    },
+    "mat:Scenario": {
+        "Flux": {
+            "Version": "béta",
+            "DateRevision": "2019-09-16T11:00:00"
+        },
+        "mat:CodeScenario": "VICGeo",
+        "mat:VersionScenario": "1beta",
+        "mat:NomScenario": "Vigilance crues aux formats géo",
+        "DateHeureCreationFichier": "2021-01-24T07:21:19+00:00",
+        "Emetteur": {
+            "@id": "http://id.eaufrance.fr/int/1537",
+            "int:CdIntervenant": "1537"
+        }
+    },
+    "vic:InfoVigiCru": {
+        "vic:RefInfoVigiCru": "23012021_16",
+        "vic:TypInfoVigiCru": "2",
+        "vic:DtHrInfoVigiCru": "2021-01-24T08:16:03+0100",
+        "vic:DtHrSuivInfoVigiCru": "2021-01-24T10:00:00+0100",
+        "vic:NivInfoVigiCru": "2",
+        "vic:URLPictoInfoVigiCru": "http://www.vigicrues.gouv.fr/services/picto/cruemax.php",
+        "vic:EstNivCalInfoVigiCru": true,
+        "vic:StInfoVigiCru": "4",
+        "vic:SituActuInfoVigiCru": "Les perturbations pluvieuses se succèdent sur le pays depuis plusieurs jours. Elles arrosent des sols très humides sur la quasi-totalité du territoire, générant des hausses de niveaux sur de nombreuses rivières. Cela justifie le maintien vigilance en jaune d'un nombre important de cours d'eau, en particulier sur le nord du pays et le centre-ouest. En ce samedi, de nouvelles précipitations faibles à modérées touchent une grande partie du pays, et plus particulièrement le sud-ouest, secteur sur lequel les pluies sont plus importantes. Dans cette zone géographique, des hausses significatives de niveau sont en cours et attendues, justifiant le passage/maintien de plusieurs tronçons en vigilance jaune en ce samedi après-midi. Pour des informations plus détaillées, veuillez consulter les bulletins des Services de Prévision des Crues concernés.",
+        "vic:EvolInfoVigiCru": "Les précipitations actuelles vont se poursuivre notamment sur le sud-ouest du pays de manière assez importante en fin journée de samedi. Elles vont perdurer sur la journée de dimanche avec des intensités moindre, mais viendront arroser des sols saturés. Les hausses du niveau des rivières vont donc se poursuivre durant tout le week-end sur ce secteur du sud-ouest, où les niveaux de premiers débordements devraient être atteints. Ailleurs sur le pays, les cumuls de précipitations encore attendus restent faibles, mais viendront alimenter des cours d'eau déjà en crue, ralentissant donc les propagations en cours voire générant de nouvelles hausses de niveaux. Pour des informations plus détaillées, consulter les bulletins des Services de Prévision des Crues concernés.",
+        "vic:ConsInfoVigiCru": "Soyez vigilant si vous vous situez à proximité d'un cours d'eau ou d'une zone habituellement inondable. Conformez-vous à la signalisation routière.",
+        "vic:ConseqInfoVigiCru": "Tenez-vous informé de la situation. Les premiers débordements peuvent être constatés. Certains cours d'eau peuvent connaître une montée rapide des eaux.",
+        "vic:porteSurLEntite": {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/A00",
+            "vic:CdEntVigiCru": "A00",
+            "vic:TypEntVigiCru": "2"
+        },
+        "vic:aEteProduitePar": {
+            "@id": "http://id.eaufrance.fr/int/1537",
+            "vic:CdIntervenant": "1537"
+        },
+        "vic:estLaSyntheseDe": [
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-23T12:58:40+00:00",
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/1",
+                    "vic:CdEntVigiCru": "1",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP1",
+                            "vic:CdEntVigiCru": "AP1",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP2",
+                            "vic:CdEntVigiCru": "AP2",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP3",
+                            "vic:CdEntVigiCru": "AP3",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP4",
+                            "vic:CdEntVigiCru": "AP4",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP5",
+                            "vic:CdEntVigiCru": "AP5",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP6",
+                            "vic:CdEntVigiCru": "AP6",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP7",
+                            "vic:CdEntVigiCru": "AP7",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP12",
+                            "vic:CdEntVigiCru": "AP12",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP13",
+                            "vic:CdEntVigiCru": "AP13",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP14",
+                            "vic:CdEntVigiCru": "AP14",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP15",
+                            "vic:CdEntVigiCru": "AP15",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP16",
+                            "vic:CdEntVigiCru": "AP16",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            },
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-23T13:19:44+00:00",
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/2",
+                    "vic:CdEntVigiCru": "2",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO4",
+                            "vic:CdEntVigiCru": "LO4",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO10",
+                            "vic:CdEntVigiCru": "LO10",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO12",
+                            "vic:CdEntVigiCru": "LO12",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO13",
+                            "vic:CdEntVigiCru": "LO13",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO14",
+                            "vic:CdEntVigiCru": "LO14",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO15",
+                            "vic:CdEntVigiCru": "LO15",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO16",
+                            "vic:CdEntVigiCru": "LO16",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO17",
+                            "vic:CdEntVigiCru": "LO17",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO18",
+                            "vic:CdEntVigiCru": "LO18",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO19",
+                            "vic:CdEntVigiCru": "LO19",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO20",
+                            "vic:CdEntVigiCru": "LO20",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO21",
+                            "vic:CdEntVigiCru": "LO21",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO22",
+                            "vic:CdEntVigiCru": "LO22",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO23",
+                            "vic:CdEntVigiCru": "LO23",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO24",
+                            "vic:CdEntVigiCru": "LO24",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO25",
+                            "vic:CdEntVigiCru": "LO25",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO26",
+                            "vic:CdEntVigiCru": "LO26",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            },
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-23T11:53:32+00:00",
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/3",
+                    "vic:CdEntVigiCru": "3",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA1",
+                            "vic:CdEntVigiCru": "SA1",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA2",
+                            "vic:CdEntVigiCru": "SA2",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA3",
+                            "vic:CdEntVigiCru": "SA3",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA4",
+                            "vic:CdEntVigiCru": "SA4",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA5",
+                            "vic:CdEntVigiCru": "SA5",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA6",
+                            "vic:CdEntVigiCru": "SA6",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA7",
+                            "vic:CdEntVigiCru": "SA7",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA8",
+                            "vic:CdEntVigiCru": "SA8",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA9",
+                            "vic:CdEntVigiCru": "SA9",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA10",
+                            "vic:CdEntVigiCru": "SA10",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA11",
+                            "vic:CdEntVigiCru": "SA11",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA12",
+                            "vic:CdEntVigiCru": "SA12",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA13",
+                            "vic:CdEntVigiCru": "SA13",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA14",
+                            "vic:CdEntVigiCru": "SA14",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA15",
+                            "vic:CdEntVigiCru": "SA15",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA16",
+                            "vic:CdEntVigiCru": "SA16",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            },
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-23T12:53:15+00:00",
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/4",
+                    "vic:CdEntVigiCru": "4",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO1",
+                            "vic:CdEntVigiCru": "NO1",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO2",
+                            "vic:CdEntVigiCru": "NO2",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO3",
+                            "vic:CdEntVigiCru": "NO3",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO6",
+                            "vic:CdEntVigiCru": "NO6",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO7",
+                            "vic:CdEntVigiCru": "NO7",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO8",
+                            "vic:CdEntVigiCru": "NO8",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO10",
+                            "vic:CdEntVigiCru": "NO10",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO11",
+                            "vic:CdEntVigiCru": "NO11",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO14",
+                            "vic:CdEntVigiCru": "NO14",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO20",
+                            "vic:CdEntVigiCru": "NO20",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO21",
+                            "vic:CdEntVigiCru": "NO21",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO22",
+                            "vic:CdEntVigiCru": "NO22",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO23",
+                            "vic:CdEntVigiCru": "NO23",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO30",
+                            "vic:CdEntVigiCru": "NO30",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO31",
+                            "vic:CdEntVigiCru": "NO31",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO40",
+                            "vic:CdEntVigiCru": "NO40",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO50",
+                            "vic:CdEntVigiCru": "NO50",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            },
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-23T13:32:47+00:00",
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/5",
+                    "vic:CdEntVigiCru": "5",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/OA1",
+                            "vic:CdEntVigiCru": "OA1",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/OA4",
+                            "vic:CdEntVigiCru": "OA4",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/OA5",
+                            "vic:CdEntVigiCru": "OA5",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/OA6",
+                            "vic:CdEntVigiCru": "OA6",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/OA7",
+                            "vic:CdEntVigiCru": "OA7",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/OA9",
+                            "vic:CdEntVigiCru": "OA9",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/OA10",
+                            "vic:CdEntVigiCru": "OA10",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/OA11",
+                            "vic:CdEntVigiCru": "OA11",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            },
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-23T13:24:59+00:00",
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/6",
+                    "vic:CdEntVigiCru": "6",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM3",
+                            "vic:CdEntVigiCru": "SM3",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM5",
+                            "vic:CdEntVigiCru": "SM5",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM7",
+                            "vic:CdEntVigiCru": "SM7",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM8",
+                            "vic:CdEntVigiCru": "SM8",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM9",
+                            "vic:CdEntVigiCru": "SM9",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM10",
+                            "vic:CdEntVigiCru": "SM10",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM11",
+                            "vic:CdEntVigiCru": "SM11",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM12",
+                            "vic:CdEntVigiCru": "SM12",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM13",
+                            "vic:CdEntVigiCru": "SM13",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM14",
+                            "vic:CdEntVigiCru": "SM14",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM15",
+                            "vic:CdEntVigiCru": "SM15",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM16",
+                            "vic:CdEntVigiCru": "SM16",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            },
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-23T14:33:17+00:00",
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/7",
+                    "vic:CdEntVigiCru": "7",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF2",
+                            "vic:CdEntVigiCru": "IF2",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF3",
+                            "vic:CdEntVigiCru": "IF3",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF5",
+                            "vic:CdEntVigiCru": "IF5",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF7",
+                            "vic:CdEntVigiCru": "IF7",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF8",
+                            "vic:CdEntVigiCru": "IF8",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF9",
+                            "vic:CdEntVigiCru": "IF9",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF10",
+                            "vic:CdEntVigiCru": "IF10",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF11",
+                            "vic:CdEntVigiCru": "IF11",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF12",
+                            "vic:CdEntVigiCru": "IF12",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF13",
+                            "vic:CdEntVigiCru": "IF13",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF14",
+                            "vic:CdEntVigiCru": "IF14",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF15",
+                            "vic:CdEntVigiCru": "IF15",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF16",
+                            "vic:CdEntVigiCru": "IF16",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF17",
+                            "vic:CdEntVigiCru": "IF17",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF18",
+                            "vic:CdEntVigiCru": "IF18",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF19",
+                            "vic:CdEntVigiCru": "IF19",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            },
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-23T13:14:58+00:00",
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/8",
+                    "vic:CdEntVigiCru": "8",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT1",
+                            "vic:CdEntVigiCru": "BT1",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT2",
+                            "vic:CdEntVigiCru": "BT2",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT3",
+                            "vic:CdEntVigiCru": "BT3",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT4",
+                            "vic:CdEntVigiCru": "BT4",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT5",
+                            "vic:CdEntVigiCru": "BT5",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT6",
+                            "vic:CdEntVigiCru": "BT6",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT7",
+                            "vic:CdEntVigiCru": "BT7",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT8",
+                            "vic:CdEntVigiCru": "BT8",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT9",
+                            "vic:CdEntVigiCru": "BT9",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT10",
+                            "vic:CdEntVigiCru": "BT10",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT11",
+                            "vic:CdEntVigiCru": "BT11",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT12",
+                            "vic:CdEntVigiCru": "BT12",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT13",
+                            "vic:CdEntVigiCru": "BT13",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT14",
+                            "vic:CdEntVigiCru": "BT14",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT15",
+                            "vic:CdEntVigiCru": "BT15",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            },
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-23T12:58:56+00:00",
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/9",
+                    "vic:CdEntVigiCru": "9",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML2",
+                            "vic:CdEntVigiCru": "ML2",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML3",
+                            "vic:CdEntVigiCru": "ML3",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML4",
+                            "vic:CdEntVigiCru": "ML4",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML7",
+                            "vic:CdEntVigiCru": "ML7",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML8",
+                            "vic:CdEntVigiCru": "ML8",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML9",
+                            "vic:CdEntVigiCru": "ML9",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML11",
+                            "vic:CdEntVigiCru": "ML11",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML13",
+                            "vic:CdEntVigiCru": "ML13",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML14",
+                            "vic:CdEntVigiCru": "ML14",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML15",
+                            "vic:CdEntVigiCru": "ML15",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML16",
+                            "vic:CdEntVigiCru": "ML16",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML17",
+                            "vic:CdEntVigiCru": "ML17",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML18",
+                            "vic:CdEntVigiCru": "ML18",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML100",
+                            "vic:CdEntVigiCru": "ML100",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML101",
+                            "vic:CdEntVigiCru": "ML101",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            },
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-23T12:51:57+00:00",
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/10",
+                    "vic:CdEntVigiCru": "10",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC105",
+                            "vic:CdEntVigiCru": "LC105",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC115",
+                            "vic:CdEntVigiCru": "LC115",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC123",
+                            "vic:CdEntVigiCru": "LC123",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC126",
+                            "vic:CdEntVigiCru": "LC126",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC130",
+                            "vic:CdEntVigiCru": "LC130",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC134",
+                            "vic:CdEntVigiCru": "LC134",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC137",
+                            "vic:CdEntVigiCru": "LC137",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC140",
+                            "vic:CdEntVigiCru": "LC140",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC145",
+                            "vic:CdEntVigiCru": "LC145",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC155",
+                            "vic:CdEntVigiCru": "LC155",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC165",
+                            "vic:CdEntVigiCru": "LC165",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC175",
+                            "vic:CdEntVigiCru": "LC175",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC185",
+                            "vic:CdEntVigiCru": "LC185",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC195",
+                            "vic:CdEntVigiCru": "LC195",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC210",
+                            "vic:CdEntVigiCru": "LC210",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC220",
+                            "vic:CdEntVigiCru": "LC220",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC221",
+                            "vic:CdEntVigiCru": "LC221",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC230",
+                            "vic:CdEntVigiCru": "LC230",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC235",
+                            "vic:CdEntVigiCru": "LC235",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC245",
+                            "vic:CdEntVigiCru": "LC245",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC255",
+                            "vic:CdEntVigiCru": "LC255",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC265",
+                            "vic:CdEntVigiCru": "LC265",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC275",
+                            "vic:CdEntVigiCru": "LC275",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC285",
+                            "vic:CdEntVigiCru": "LC285",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC295",
+                            "vic:CdEntVigiCru": "LC295",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC315",
+                            "vic:CdEntVigiCru": "LC315",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC325",
+                            "vic:CdEntVigiCru": "LC325",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC335",
+                            "vic:CdEntVigiCru": "LC335",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC345",
+                            "vic:CdEntVigiCru": "LC345",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            },
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-23T14:10:38+00:00",
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/11",
+                    "vic:CdEntVigiCru": "11",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL2",
+                            "vic:CdEntVigiCru": "AL2",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL3",
+                            "vic:CdEntVigiCru": "AL3",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL5",
+                            "vic:CdEntVigiCru": "AL5",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL6",
+                            "vic:CdEntVigiCru": "AL6",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL8",
+                            "vic:CdEntVigiCru": "AL8",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL10",
+                            "vic:CdEntVigiCru": "AL10",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL11",
+                            "vic:CdEntVigiCru": "AL11",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL12",
+                            "vic:CdEntVigiCru": "AL12",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL13",
+                            "vic:CdEntVigiCru": "AL13",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL14",
+                            "vic:CdEntVigiCru": "AL14",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL15",
+                            "vic:CdEntVigiCru": "AL15",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL16",
+                            "vic:CdEntVigiCru": "AL16",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            },
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-23T13:15:32+00:00",
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/12",
+                    "vic:CdEntVigiCru": "12",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT2",
+                            "vic:CdEntVigiCru": "VT2",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT3",
+                            "vic:CdEntVigiCru": "VT3",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT4",
+                            "vic:CdEntVigiCru": "VT4",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT5",
+                            "vic:CdEntVigiCru": "VT5",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT6",
+                            "vic:CdEntVigiCru": "VT6",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT7",
+                            "vic:CdEntVigiCru": "VT7",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT8",
+                            "vic:CdEntVigiCru": "VT8",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT9",
+                            "vic:CdEntVigiCru": "VT9",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT10",
+                            "vic:CdEntVigiCru": "VT10",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT11",
+                            "vic:CdEntVigiCru": "VT11",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT12",
+                            "vic:CdEntVigiCru": "VT12",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            },
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-23T13:19:05+00:00",
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/14",
+                    "vic:CdEntVigiCru": "14",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO1",
+                            "vic:CdEntVigiCru": "DO1",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO4",
+                            "vic:CdEntVigiCru": "DO4",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO5",
+                            "vic:CdEntVigiCru": "DO5",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO6",
+                            "vic:CdEntVigiCru": "DO6",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO7",
+                            "vic:CdEntVigiCru": "DO7",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO8",
+                            "vic:CdEntVigiCru": "DO8",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO9",
+                            "vic:CdEntVigiCru": "DO9",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO10",
+                            "vic:CdEntVigiCru": "DO10",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO11",
+                            "vic:CdEntVigiCru": "DO11",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO12",
+                            "vic:CdEntVigiCru": "DO12",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO20",
+                            "vic:CdEntVigiCru": "DO20",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            },
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-23T20:57:15+00:00",
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/18",
+                    "vic:CdEntVigiCru": "18",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS6",
+                            "vic:CdEntVigiCru": "RS6",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS8",
+                            "vic:CdEntVigiCru": "RS8",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS11",
+                            "vic:CdEntVigiCru": "RS11",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS12",
+                            "vic:CdEntVigiCru": "RS12",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS14",
+                            "vic:CdEntVigiCru": "RS14",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS17",
+                            "vic:CdEntVigiCru": "RS17",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS18",
+                            "vic:CdEntVigiCru": "RS18",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS20",
+                            "vic:CdEntVigiCru": "RS20",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS21",
+                            "vic:CdEntVigiCru": "RS21",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS23",
+                            "vic:CdEntVigiCru": "RS23",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS30",
+                            "vic:CdEntVigiCru": "RS30",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS41",
+                            "vic:CdEntVigiCru": "RS41",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS50",
+                            "vic:CdEntVigiCru": "RS50",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS70",
+                            "vic:CdEntVigiCru": "RS70",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS90",
+                            "vic:CdEntVigiCru": "RS90",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS100",
+                            "vic:CdEntVigiCru": "RS100",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS130",
+                            "vic:CdEntVigiCru": "RS130",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS131",
+                            "vic:CdEntVigiCru": "RS131",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS160",
+                            "vic:CdEntVigiCru": "RS160",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS201",
+                            "vic:CdEntVigiCru": "RS201",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS202",
+                            "vic:CdEntVigiCru": "RS202",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            },
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-23T07:16:29+00:00",
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/19",
+                    "vic:CdEntVigiCru": "19",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN11",
+                            "vic:CdEntVigiCru": "AN11",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN12",
+                            "vic:CdEntVigiCru": "AN12",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN13",
+                            "vic:CdEntVigiCru": "AN13",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN14",
+                            "vic:CdEntVigiCru": "AN14",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN20",
+                            "vic:CdEntVigiCru": "AN20",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN30",
+                            "vic:CdEntVigiCru": "AN30",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN40",
+                            "vic:CdEntVigiCru": "AN40",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN41",
+                            "vic:CdEntVigiCru": "AN41",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN42",
+                            "vic:CdEntVigiCru": "AN42",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN43",
+                            "vic:CdEntVigiCru": "AN43",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN44",
+                            "vic:CdEntVigiCru": "AN44",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            },
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-23T06:28:34+00:00",
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/20",
+                    "vic:CdEntVigiCru": "20",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA1",
+                            "vic:CdEntVigiCru": "GA1",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA2",
+                            "vic:CdEntVigiCru": "GA2",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA3",
+                            "vic:CdEntVigiCru": "GA3",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA4",
+                            "vic:CdEntVigiCru": "GA4",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA5",
+                            "vic:CdEntVigiCru": "GA5",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA6",
+                            "vic:CdEntVigiCru": "GA6",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA7",
+                            "vic:CdEntVigiCru": "GA7",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA9",
+                            "vic:CdEntVigiCru": "GA9",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA10",
+                            "vic:CdEntVigiCru": "GA10",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA12",
+                            "vic:CdEntVigiCru": "GA12",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA13",
+                            "vic:CdEntVigiCru": "GA13",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA14",
+                            "vic:CdEntVigiCru": "GA14",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA17",
+                            "vic:CdEntVigiCru": "GA17",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA21",
+                            "vic:CdEntVigiCru": "GA21",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA22",
+                            "vic:CdEntVigiCru": "GA22",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA23",
+                            "vic:CdEntVigiCru": "GA23",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA24",
+                            "vic:CdEntVigiCru": "GA24",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA25",
+                            "vic:CdEntVigiCru": "GA25",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA26",
+                            "vic:CdEntVigiCru": "GA26",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA27",
+                            "vic:CdEntVigiCru": "GA27",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA30",
+                            "vic:CdEntVigiCru": "GA30",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA31",
+                            "vic:CdEntVigiCru": "GA31",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            },
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-23T11:51:01+00:00",
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/21",
+                    "vic:CdEntVigiCru": "21",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO1",
+                            "vic:CdEntVigiCru": "MO1",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO2",
+                            "vic:CdEntVigiCru": "MO2",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO4",
+                            "vic:CdEntVigiCru": "MO4",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO5",
+                            "vic:CdEntVigiCru": "MO5",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO6",
+                            "vic:CdEntVigiCru": "MO6",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO7",
+                            "vic:CdEntVigiCru": "MO7",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO8",
+                            "vic:CdEntVigiCru": "MO8",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO9",
+                            "vic:CdEntVigiCru": "MO9",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO10",
+                            "vic:CdEntVigiCru": "MO10",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO11",
+                            "vic:CdEntVigiCru": "MO11",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO12",
+                            "vic:CdEntVigiCru": "MO12",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO14",
+                            "vic:CdEntVigiCru": "MO14",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO15",
+                            "vic:CdEntVigiCru": "MO15",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO16",
+                            "vic:CdEntVigiCru": "MO16",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO17",
+                            "vic:CdEntVigiCru": "MO17",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            },
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-23T13:19:53+00:00",
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/22",
+                    "vic:CdEntVigiCru": "22",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ME1",
+                            "vic:CdEntVigiCru": "ME1",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ME2",
+                            "vic:CdEntVigiCru": "ME2",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ME3",
+                            "vic:CdEntVigiCru": "ME3",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ME4",
+                            "vic:CdEntVigiCru": "ME4",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ME5",
+                            "vic:CdEntVigiCru": "ME5",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ME6",
+                            "vic:CdEntVigiCru": "ME6",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ME7",
+                            "vic:CdEntVigiCru": "ME7",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ME8",
+                            "vic:CdEntVigiCru": "ME8",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            },
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-23T14:05:14+00:00",
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/23",
+                    "vic:CdEntVigiCru": "23",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD1",
+                            "vic:CdEntVigiCru": "AD1",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD2",
+                            "vic:CdEntVigiCru": "AD2",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD5",
+                            "vic:CdEntVigiCru": "AD5",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD8",
+                            "vic:CdEntVigiCru": "AD8",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD9",
+                            "vic:CdEntVigiCru": "AD9",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD10",
+                            "vic:CdEntVigiCru": "AD10",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD16",
+                            "vic:CdEntVigiCru": "AD16",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD17",
+                            "vic:CdEntVigiCru": "AD17",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD18",
+                            "vic:CdEntVigiCru": "AD18",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD19",
+                            "vic:CdEntVigiCru": "AD19",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD20",
+                            "vic:CdEntVigiCru": "AD20",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD21",
+                            "vic:CdEntVigiCru": "AD21",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA10",
+                            "vic:CdEntVigiCru": "LA10",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA11",
+                            "vic:CdEntVigiCru": "LA11",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA13",
+                            "vic:CdEntVigiCru": "LA13",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            },
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-23T13:21:19+00:00",
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/24",
+                    "vic:CdEntVigiCru": "24",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA1",
+                            "vic:CdEntVigiCru": "LA1",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA2",
+                            "vic:CdEntVigiCru": "LA2",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA3",
+                            "vic:CdEntVigiCru": "LA3",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA4",
+                            "vic:CdEntVigiCru": "LA4",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA5",
+                            "vic:CdEntVigiCru": "LA5",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA6",
+                            "vic:CdEntVigiCru": "LA6",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA7",
+                            "vic:CdEntVigiCru": "LA7",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA12",
+                            "vic:CdEntVigiCru": "LA12",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA14",
+                            "vic:CdEntVigiCru": "LA14",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA15",
+                            "vic:CdEntVigiCru": "LA15",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA17",
+                            "vic:CdEntVigiCru": "LA17",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA18",
+                            "vic:CdEntVigiCru": "LA18",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA19",
+                            "vic:CdEntVigiCru": "LA19",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            },
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-24T07:12:27+00:00",
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/25",
+                    "vic:CdEntVigiCru": "25",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP1",
+                            "vic:CdEntVigiCru": "MP1",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP2",
+                            "vic:CdEntVigiCru": "MP2",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP3",
+                            "vic:CdEntVigiCru": "MP3",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP4",
+                            "vic:CdEntVigiCru": "MP4",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP6",
+                            "vic:CdEntVigiCru": "MP6",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP7",
+                            "vic:CdEntVigiCru": "MP7",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP8",
+                            "vic:CdEntVigiCru": "MP8",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP9",
+                            "vic:CdEntVigiCru": "MP9",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP10",
+                            "vic:CdEntVigiCru": "MP10",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP11",
+                            "vic:CdEntVigiCru": "MP11",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL1",
+                            "vic:CdEntVigiCru": "TL1",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL3",
+                            "vic:CdEntVigiCru": "TL3",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL4",
+                            "vic:CdEntVigiCru": "TL4",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL5",
+                            "vic:CdEntVigiCru": "TL5",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL6",
+                            "vic:CdEntVigiCru": "TL6",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL9",
+                            "vic:CdEntVigiCru": "TL9",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL10",
+                            "vic:CdEntVigiCru": "TL10",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL11",
+                            "vic:CdEntVigiCru": "TL11",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL12",
+                            "vic:CdEntVigiCru": "TL12",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "2",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL13",
+                            "vic:CdEntVigiCru": "TL13",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            },
+            {
+                "vic:RefInfoVigiCru": "",
+                "vic:DtHrInfoVigiCru": "2021-01-23T13:20:14+00:00",
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/TerEntVigiCru/26",
+                    "vic:CdEntVigiCru": "26",
+                    "vic:TypEntVigiCru": "5"
+                },
+                "vic:estLaSyntheseDe": [
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/CO1",
+                            "vic:CdEntVigiCru": "CO1",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/CO2",
+                            "vic:CdEntVigiCru": "CO2",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    },
+                    {
+                        "vic:NivInfoVigiCru": "1",
+                        "vic:porteSurLEntite": {
+                            "@id": "http://id.eaufrance.fr/TronEntVigiCru/CO3",
+                            "vic:CdEntVigiCru": "CO3",
+                            "vic:TypEntVigiCru": "8"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}</value>
+  </data>
+  <data name="InfoVigiCru_TypEntVigiCru4" xml:space="preserve">
+    <value>{
+    "@context": {
+        "mat": "http://id.eaufrance.fr/ddd/mat/3.1/",
+        "int": "http://id.eaufrance.fr/ddd/int/2/",
+        "vic": "http://id.eaufrance.fr/ddd/vic/1.1/",
+        "com": "http://id.eaufrance.fr/ddd/com/4/",
+        "hyd": "http://id.eaufrance.fr/ddd/hyd/2.3/",
+        "eth": "http://id.eaufrance.fr/ddd/eth/2/",
+        "zon": "http://id.eaufrance.fr/ddd/zon/2.2/",
+        "mdo": "http://id.eaufrance.fr/ddd/mdo/1.4/"
+    },
+    "mat:Scenario": {
+        "Flux": {
+            "Version": "béta",
+            "DateRevision": "2019-09-16T11:00:00"
+        },
+        "mat:CodeScenario": "VICGeo",
+        "mat:VersionScenario": "1beta",
+        "mat:NomScenario": "Vigilance crues aux formats géo",
+        "DateHeureCreationFichier": "2021-01-24T07:21:29+00:00",
+        "Emetteur": {
+            "@id": "http://id.eaufrance.fr/int/1537",
+            "int:CdIntervenant": "1537"
+        }
+    },
+    "vic:InfoVigiCru": {
+        "vic:RefInfoVigiCru": "23012021_16",
+        "vic:TypInfoVigiCru": "2",
+        "vic:DtHrInfoVigiCru": "2021-01-24T08:16:03+0100",
+        "vic:DtHrSuivInfoVigiCru": "2021-01-24T10:00:00+0100",
+        "vic:NivInfoVigiCru": "2",
+        "vic:URLPictoInfoVigiCru": "http://www.vigicrues.gouv.fr/services/picto/cruemax.php",
+        "vic:EstNivCalInfoVigiCru": true,
+        "vic:StInfoVigiCru": "4",
+        "vic:SituActuInfoVigiCru": "",
+        "vic:EvolInfoVigiCru": "",
+        "vic:ConsInfoVigiCru": "",
+        "vic:ConseqInfoVigiCru": "",
+        "vic:porteSurLEntite": {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/A00",
+            "vic:CdEntVigiCru": "A00",
+            "vic:TypEntVigiCru": "2"
+        },
+        "vic:aEteProduitePar": {
+            "@id": "http://id.eaufrance.fr/int/1537",
+            "vic:CdIntervenant": "1537"
+        },
+        "vic:estLaSyntheseDe": [
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/01",
+                    "com:CdDepartement": "01",
+                    "vic:CdEntVigiCru": "01",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/02",
+                    "com:CdDepartement": "02",
+                    "vic:CdEntVigiCru": "02",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/03",
+                    "com:CdDepartement": "03",
+                    "vic:CdEntVigiCru": "03",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/04",
+                    "com:CdDepartement": "04",
+                    "vic:CdEntVigiCru": "04",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/05",
+                    "com:CdDepartement": "05",
+                    "vic:CdEntVigiCru": "05",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/06",
+                    "com:CdDepartement": "06",
+                    "vic:CdEntVigiCru": "06",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/07",
+                    "com:CdDepartement": "07",
+                    "vic:CdEntVigiCru": "07",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/08",
+                    "com:CdDepartement": "08",
+                    "vic:CdEntVigiCru": "08",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/09",
+                    "com:CdDepartement": "09",
+                    "vic:CdEntVigiCru": "09",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/10",
+                    "com:CdDepartement": "10",
+                    "vic:CdEntVigiCru": "10",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/11",
+                    "com:CdDepartement": "11",
+                    "vic:CdEntVigiCru": "11",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/12",
+                    "com:CdDepartement": "12",
+                    "vic:CdEntVigiCru": "12",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/13",
+                    "com:CdDepartement": "13",
+                    "vic:CdEntVigiCru": "13",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/14",
+                    "com:CdDepartement": "14",
+                    "vic:CdEntVigiCru": "14",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/15",
+                    "com:CdDepartement": "15",
+                    "vic:CdEntVigiCru": "15",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/16",
+                    "com:CdDepartement": "16",
+                    "vic:CdEntVigiCru": "16",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/17",
+                    "com:CdDepartement": "17",
+                    "vic:CdEntVigiCru": "17",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/18",
+                    "com:CdDepartement": "18",
+                    "vic:CdEntVigiCru": "18",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/19",
+                    "com:CdDepartement": "19",
+                    "vic:CdEntVigiCru": "19",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/21",
+                    "com:CdDepartement": "21",
+                    "vic:CdEntVigiCru": "21",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/22",
+                    "com:CdDepartement": "22",
+                    "vic:CdEntVigiCru": "22",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/23",
+                    "com:CdDepartement": "23",
+                    "vic:CdEntVigiCru": "23",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/24",
+                    "com:CdDepartement": "24",
+                    "vic:CdEntVigiCru": "24",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/25",
+                    "com:CdDepartement": "25",
+                    "vic:CdEntVigiCru": "25",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/26",
+                    "com:CdDepartement": "26",
+                    "vic:CdEntVigiCru": "26",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/27",
+                    "com:CdDepartement": "27",
+                    "vic:CdEntVigiCru": "27",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/28",
+                    "com:CdDepartement": "28",
+                    "vic:CdEntVigiCru": "28",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/29",
+                    "com:CdDepartement": "29",
+                    "vic:CdEntVigiCru": "29",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/2B",
+                    "com:CdDepartement": "2B",
+                    "vic:CdEntVigiCru": "2B",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/30",
+                    "com:CdDepartement": "30",
+                    "vic:CdEntVigiCru": "30",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/31",
+                    "com:CdDepartement": "31",
+                    "vic:CdEntVigiCru": "31",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/32",
+                    "com:CdDepartement": "32",
+                    "vic:CdEntVigiCru": "32",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/33",
+                    "com:CdDepartement": "33",
+                    "vic:CdEntVigiCru": "33",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/34",
+                    "com:CdDepartement": "34",
+                    "vic:CdEntVigiCru": "34",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/35",
+                    "com:CdDepartement": "35",
+                    "vic:CdEntVigiCru": "35",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/36",
+                    "com:CdDepartement": "36",
+                    "vic:CdEntVigiCru": "36",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/37",
+                    "com:CdDepartement": "37",
+                    "vic:CdEntVigiCru": "37",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/38",
+                    "com:CdDepartement": "38",
+                    "vic:CdEntVigiCru": "38",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/39",
+                    "com:CdDepartement": "39",
+                    "vic:CdEntVigiCru": "39",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/40",
+                    "com:CdDepartement": "40",
+                    "vic:CdEntVigiCru": "40",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/41",
+                    "com:CdDepartement": "41",
+                    "vic:CdEntVigiCru": "41",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/42",
+                    "com:CdDepartement": "42",
+                    "vic:CdEntVigiCru": "42",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/43",
+                    "com:CdDepartement": "43",
+                    "vic:CdEntVigiCru": "43",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/44",
+                    "com:CdDepartement": "44",
+                    "vic:CdEntVigiCru": "44",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/45",
+                    "com:CdDepartement": "45",
+                    "vic:CdEntVigiCru": "45",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/46",
+                    "com:CdDepartement": "46",
+                    "vic:CdEntVigiCru": "46",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/47",
+                    "com:CdDepartement": "47",
+                    "vic:CdEntVigiCru": "47",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/48",
+                    "com:CdDepartement": "48",
+                    "vic:CdEntVigiCru": "48",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/49",
+                    "com:CdDepartement": "49",
+                    "vic:CdEntVigiCru": "49",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/50",
+                    "com:CdDepartement": "50",
+                    "vic:CdEntVigiCru": "50",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/51",
+                    "com:CdDepartement": "51",
+                    "vic:CdEntVigiCru": "51",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/52",
+                    "com:CdDepartement": "52",
+                    "vic:CdEntVigiCru": "52",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/53",
+                    "com:CdDepartement": "53",
+                    "vic:CdEntVigiCru": "53",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/54",
+                    "com:CdDepartement": "54",
+                    "vic:CdEntVigiCru": "54",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/55",
+                    "com:CdDepartement": "55",
+                    "vic:CdEntVigiCru": "55",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/56",
+                    "com:CdDepartement": "56",
+                    "vic:CdEntVigiCru": "56",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/57",
+                    "com:CdDepartement": "57",
+                    "vic:CdEntVigiCru": "57",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/58",
+                    "com:CdDepartement": "58",
+                    "vic:CdEntVigiCru": "58",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/59",
+                    "com:CdDepartement": "59",
+                    "vic:CdEntVigiCru": "59",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/60",
+                    "com:CdDepartement": "60",
+                    "vic:CdEntVigiCru": "60",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/61",
+                    "com:CdDepartement": "61",
+                    "vic:CdEntVigiCru": "61",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/62",
+                    "com:CdDepartement": "62",
+                    "vic:CdEntVigiCru": "62",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/63",
+                    "com:CdDepartement": "63",
+                    "vic:CdEntVigiCru": "63",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/64",
+                    "com:CdDepartement": "64",
+                    "vic:CdEntVigiCru": "64",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/65",
+                    "com:CdDepartement": "65",
+                    "vic:CdEntVigiCru": "65",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/66",
+                    "com:CdDepartement": "66",
+                    "vic:CdEntVigiCru": "66",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/67",
+                    "com:CdDepartement": "67",
+                    "vic:CdEntVigiCru": "67",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/68",
+                    "com:CdDepartement": "68",
+                    "vic:CdEntVigiCru": "68",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/69",
+                    "com:CdDepartement": "69",
+                    "vic:CdEntVigiCru": "69",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/70",
+                    "com:CdDepartement": "70",
+                    "vic:CdEntVigiCru": "70",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/71",
+                    "com:CdDepartement": "71",
+                    "vic:CdEntVigiCru": "71",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/72",
+                    "com:CdDepartement": "72",
+                    "vic:CdEntVigiCru": "72",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/73",
+                    "com:CdDepartement": "73",
+                    "vic:CdEntVigiCru": "73",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/74",
+                    "com:CdDepartement": "74",
+                    "vic:CdEntVigiCru": "74",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/75",
+                    "com:CdDepartement": "75",
+                    "vic:CdEntVigiCru": "75",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/76",
+                    "com:CdDepartement": "76",
+                    "vic:CdEntVigiCru": "76",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/77",
+                    "com:CdDepartement": "77",
+                    "vic:CdEntVigiCru": "77",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/78",
+                    "com:CdDepartement": "78",
+                    "vic:CdEntVigiCru": "78",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/79",
+                    "com:CdDepartement": "79",
+                    "vic:CdEntVigiCru": "79",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/80",
+                    "com:CdDepartement": "80",
+                    "vic:CdEntVigiCru": "80",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/81",
+                    "com:CdDepartement": "81",
+                    "vic:CdEntVigiCru": "81",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/82",
+                    "com:CdDepartement": "82",
+                    "vic:CdEntVigiCru": "82",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/83",
+                    "com:CdDepartement": "83",
+                    "vic:CdEntVigiCru": "83",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/84",
+                    "com:CdDepartement": "84",
+                    "vic:CdEntVigiCru": "84",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/85",
+                    "com:CdDepartement": "85",
+                    "vic:CdEntVigiCru": "85",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/86",
+                    "com:CdDepartement": "86",
+                    "vic:CdEntVigiCru": "86",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/87",
+                    "com:CdDepartement": "87",
+                    "vic:CdEntVigiCru": "87",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/88",
+                    "com:CdDepartement": "88",
+                    "vic:CdEntVigiCru": "88",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/89",
+                    "com:CdDepartement": "89",
+                    "vic:CdEntVigiCru": "89",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/90",
+                    "com:CdDepartement": "90",
+                    "vic:CdEntVigiCru": "90",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "1",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/91",
+                    "com:CdDepartement": "91",
+                    "vic:CdEntVigiCru": "91",
+                    "vic:TypEntVigiCru": "4"
+                }
+            },
+            {
+                "vic:NivInfoVigiCru": "2",
+                "vic:porteSurLEntite": {
+                    "@id": "http://id.eaufrance.fr/Departement/95",
+                    "com:CdDepartement": "95",
+                    "vic:CdEntVigiCru": "95",
+                    "vic:TypEntVigiCru": "4"
+                }
+            }
+        ]
+    }
+}</value>
+  </data>
   <data name="StaEntVigiCru" xml:space="preserve">
     <value>{
     "@context": {

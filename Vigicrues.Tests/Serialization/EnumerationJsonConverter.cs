@@ -16,12 +16,6 @@ namespace Vigicrues.Serialization
             Value3 = 99
         }
 
-        private class SerializableObject
-        {
-            [JsonPropertyName("value")]
-            public TestEnum Enum { get; set; }
-        }
-
         [Theory]
         [InlineData("\"0\"", TestEnum.Value1)]
         [InlineData("\"1\"", TestEnum.Value2)]

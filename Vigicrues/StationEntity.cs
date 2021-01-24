@@ -7,8 +7,14 @@
     {
 
         /// <summary>Creates a new instance of the <see cref="StationEntity" /> type.</summary>
-        public StationEntity():
+        internal StationEntity() :
             base(EntityType.Station)
+        { }
+
+        /// <summary>Creates a new instance of the <see cref="StationEntity" /> type.</summary>
+        /// <param name="reference">The unique identifier of the entity.</param>
+        public StationEntity(string reference) :
+            base(EntityType.Station, reference)
         { }
     }
 }

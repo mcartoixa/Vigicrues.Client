@@ -82,6 +82,80 @@ namespace Vigicrues
         }
 
         [Fact]
+        public async void GetStationsAsync_ShouldReturnAListOfStations()
+        {
+            // Arrange
+            var fakeHttpMessageHandler = _CreateFakeHttpMessageHandler(HttpStatusCode.OK, Resources.HttpResponses.StaEntVigiCru);
+            var client = new ApiClient(fakeHttpMessageHandler.Object, true);
+
+            // Act
+            var result = await client.GetStationsAsync();
+
+            // Assert
+            Assert.NotNull(result);
+            Assert.NotEmpty(result);
+
+            fakeHttpMessageHandler.Protected().Verify(
+               "SendAsync",
+               Times.Exactly(1),
+               ItExpr.Is<HttpRequestMessage>(req =>
+                  req.Method == HttpMethod.Get && req.RequestUri == new Uri("https://www.vigicrues.gouv.fr/services/1/StaEntVigiCru.jsonld/")
+               ),
+               ItExpr.IsAny<CancellationToken>()
+            );
+        }
+
+        [Fact]
+        public async void GetStationsAsync_ShouldReturnAListOfStationsForATerritory()
+        {
+            // Arrange
+            var fakeHttpMessageHandler = _CreateFakeHttpMessageHandler(HttpStatusCode.OK, Resources.HttpResponses.StaEntVigiCru);
+            var client = new ApiClient(fakeHttpMessageHandler.Object, true);
+            var input = new TerritoryEntity("1");
+
+            // Act
+            var result = await client.GetStationsAsync(input);
+
+            // Assert
+            Assert.NotNull(result);
+            Assert.NotEmpty(result);
+
+            fakeHttpMessageHandler.Protected().Verify(
+               "SendAsync",
+               Times.Exactly(1),
+               ItExpr.Is<HttpRequestMessage>(req =>
+                  req.Method == HttpMethod.Get && req.RequestUri == new Uri("https://www.vigicrues.gouv.fr/services/1/StaEntVigiCru.jsonld/?CdEntVigiCru=1&TypEntVigiCru=5")
+               ),
+               ItExpr.IsAny<CancellationToken>()
+            );
+        }
+
+        [Fact]
+        public async void GetStationAsync_ShouldReturnStation()
+        {
+            // Arrange
+            var fakeHttpMessageHandler = _CreateFakeHttpMessageHandler(HttpStatusCode.OK, Resources.HttpResponses.StaEntVigiCru_CdEntVigiCruE351122001);
+            var client = new ApiClient(fakeHttpMessageHandler.Object, true);
+            var input = new StationEntity("E351122001");
+
+            // Act
+            var result = await client.GetStationAsync(input);
+
+            // Assert
+            Assert.NotNull(result);
+            Assert.Equal("E351122001", result.Reference);
+
+            fakeHttpMessageHandler.Protected().Verify(
+               "SendAsync",
+               Times.Exactly(1),
+               ItExpr.Is<HttpRequestMessage>(req =>
+                  req.Method == HttpMethod.Get && req.RequestUri == new Uri("https://www.vigicrues.gouv.fr/services/1/StaEntVigiCru.jsonld/?CdEntVigiCru=E351122001&TypEntVigiCru=7")
+               ),
+               ItExpr.IsAny<CancellationToken>()
+            );
+        }
+
+        [Fact]
         public async void GetTerritoriesAsync_ShouldReturnAListOfTerritories()
         {
             // Arrange

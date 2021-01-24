@@ -68,7 +68,7 @@
       RebaseOutputs="True"
       Properties="Configuration=%(Projects.Configuration);Platform=%(Projects.Platform);BaseOutputPath=$(_BaseOutputPath);BaseIntermediateOutputPath=$(_BaseIntermediateOutputPath);%(Projects.Properties)"
       Targets="Restore;Clean"
-      RunEachTargetSeparately="True"
+      RunEachTargetSeparately="False"
     />
     <!-- Redirecting intermediates won't work, so making sure here: https://github.com/dotnet/sdk/issues/3485 -->
     <MSBuild
@@ -76,7 +76,7 @@
       RebaseOutputs="True"
       Properties="Configuration=%(Projects.Configuration);Platform=%(Projects.Platform);%(Projects.Properties)"
       Targets="Restore;Clean"
-      RunEachTargetSeparately="True"
+      RunEachTargetSeparately="False"
     />
   </Target>
 
@@ -95,7 +95,7 @@
       RebaseOutputs="True"
       Properties="Configuration=%(Projects.Configuration);Platform=%(Projects.Platform);BaseOutputPath=$(_BaseOutputPath);BaseIntermediateOutputPath=$(_BaseIntermediateOutputPath);%(Projects.Properties)"
       Targets="Restore;Build"
-      RunEachTargetSeparately="True"
+      RunEachTargetSeparately="False"
     />
   </Target>
 
@@ -141,7 +141,7 @@
       RebaseOutputs="True"
       Properties="Configuration=Release;BaseOutputPath=$(_BaseOutputPath);@(_TestProperties);%(Projects.Properties)"
       Targets="Restore;VSTest"
-      RunEachTargetSeparately="True"
+      RunEachTargetSeparately="False"
     />
     <Copy Condition="Exists('$(_VSTestResultsPath)TestResults.xml')" SourceFiles="$(_VSTestResultsPath)TestResults.xml" DestinationFiles="$(TmpOutputPath)%(TestProjects.Filename)-xunit-results.xml" />
   </Target>
@@ -189,23 +189,23 @@
 
 
   <!-- Package -->
-  <Target Name="Package" DependsOnTargets="Prepare;PackProject" />
+  <Target Name="Package" DependsOnTargets="Prepare;PackageProject" />
 
-  <Target Name="PackProject" DependsOnTargets="Compile" >
-    <!--PropertyGroup>
+  <Target Name="PackageProject">
+    <PropertyGroup>
       <_BaseOutputPath>$(PackageOutputPath)%(Projects.FileName)\</_BaseOutputPath>
       <_BaseIntermediateOutputPath>$(IntermediateOutputPath)pck\%(Projects.FileName)\</_BaseIntermediateOutputPath>
     </PropertyGroup>
     <ItemGroup>
-      <_TestProperties Include="PackageOutputPath=$(TmpOutBinOutputPath)" />
+      <_PackageProperties Include="PackageOutputPath=$(TmpOutBinOutputPath)" />
     </ItemGroup>
     <MSBuild
       Projects="%(Projects.Identity)"
       RebaseOutputs="True"
       Properties="Configuration=%(Projects.Configuration);Platform=%(Projects.Platform);BaseOutputPath=$(_BaseOutputPath);BaseIntermediateOutputPath=$(_BaseIntermediateOutputPath);@(_PackageProperties);%(Projects.Properties)"
       Targets="Restore;Pack"
-      RunEachTargetSeparately="True"
-    /-->
+      RunEachTargetSeparately="False"
+    />
   </Target>
 
 

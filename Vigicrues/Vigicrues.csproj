@@ -12,6 +12,11 @@
     <RepositoryUrl>https://github.com/mcartoixa/Vigicrues.Client</RepositoryUrl>
     <Version>0.0.0.0</Version>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Mathieu Cartoixa</Authors>
+    <Company />
+    <Product />
+    <Description>This library provides a .NET wrapper around the Vigicrues API, which reports information about flooding hazards in France.</Description>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">

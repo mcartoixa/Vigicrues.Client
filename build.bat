@@ -1,6 +1,6 @@
 @ECHO OFF
 ::--------------------------------------------------------------------
-:: Usage: "build [clean | compile | test | analyze | package | build | rebuild] [/log] [/NoPause] [/?]"
+:: Usage: "build [clean | compile | test | analyze | package | build | rebuild | release] [/log] [/NoPause] [/?]"
 ::
 ::                 /NoPause  - Does not pause after completion
 ::                 /log      - Creates an extensive log file
@@ -23,7 +23,7 @@ GOTO ARGS
 
 :SHOW_USAGE
 ECHO.
-ECHO Usage: "build [clean | compile | test | analyze | package | build | rebuild] [/log] [/NoPause] [/?]"
+ECHO Usage: "build [clean | compile | test | analyze | package | build | rebuild | release] [/log] [/NoPause] [/?]"
 ECHO.
 ECHO.                /NoPause  - Does not pause after completion
 ECHO.                /log      - Creates an extensive log file
@@ -40,7 +40,7 @@ GOTO END
 dotnet.exe tool restore
 IF ERRORLEVEL 1 GOTO END_ERROR
 
-dotnet.exe msbuild %_PROJECT% /nologo /t:%_TARGET% /m /r /fl /flp:logfile=build.log;verbosity=%_VERBOSITY%;encoding=UTF-8  %_LOGGERS% /nr:False /v:normal
+dotnet.exe msbuild %_PROJECT% /nologo /t:%_TARGET% /m /r /fl /flp:logfile=build.log;verbosity=%_VERBOSITY%;encoding=UTF-8 %_LOGGERS% /nr:False /v:normal
 IF ERRORLEVEL 1 GOTO END_ERROR
 GOTO END
 
@@ -66,6 +66,7 @@ IF /I "%~1"=="compile"              SET _TARGET=Compile& SHIFT & GOTO ARGS_PARSE
 IF /I "%~1"=="test"                 SET _TARGET=Test& SHIFT & GOTO ARGS_PARSE
 IF /I "%~1"=="package"              SET _TARGET=Package& SHIFT & GOTO ARGS_PARSE
 IF /I "%~1"=="rebuild"              SET _TARGET=Rebuild& SHIFT & GOTO ARGS_PARSE
+IF /I "%~1"=="release"              SET _TARGET=Release& SHIFT & GOTO ARGS_PARSE
 IF /I "%~1"=="build"                SET _TARGET=Build& SHIFT & GOTO ARGS_PARSE
 IF /I "%~1"=="/log"                 SET _VERBOSITY=diagnostic& SET _LOGGERS=/bl:build.binlog& SHIFT & GOTO ARGS_PARSE
 IF /I "%~1"=="/NoPause"             SET _NO_PAUSE=1& SHIFT & GOTO ARGS_PARSE

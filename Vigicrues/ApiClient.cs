@@ -13,7 +13,8 @@ namespace Vigicrues
 
     /// <summary>Client for the Vigicrues API.</summary>
     /// <see href="https://www.vigicrues.gouv.fr/services/1/" />
-    public class ApiClient
+    public sealed class ApiClient:
+        IDisposable
     {
 
         internal class InfoVigiCru
@@ -72,11 +73,15 @@ namespace Vigicrues
         }
 
         /// <summary>Creates an new instance of the <see cref="ApiClient" /> type.</summary>
-        /// <param name="client"></param>
-        public ApiClient(HttpClient client)
+        /// <param name="client">The HTTP client to be used by the created instance.</param>
+        /// <param name="disposeHttpClient">Whether to dispose the specified <paramref name="client"/> along with the created instance. This should usually bet set to <c>false</c>.</param>
+        /// <seealso href="https://docs.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests">Use IHttpClientFactory to implement resilient HTTP requests</seealso>
+        public ApiClient(HttpClient client, bool disposeHttpClient)
         {
             _Client = client;
             _Client.BaseAddress = new Uri("https://www.vigicrues.gouv.fr/services/1/");
+
+            _DisposeHttpClient = disposeHttpClient;
 
             _JsonSerializerOptions = new JsonSerializerOptions {
                 Converters = {
@@ -86,19 +91,47 @@ namespace Vigicrues
         }
 
         /// <summary>Creates an new instance of the <see cref="ApiClient" /> type.</summary>
-        public ApiClient(HttpMessageHandler messageHandler) :
-            this(new HttpClient(messageHandler))
+        /// <param name="client">The HTTP client to be used by the current instance.</param>
+        /// <remarks>The <paramref name="client"/> will not be disposed with the created instance.</remarks>
+        /// <seealso href="https://docs.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests">Use IHttpClientFactory to implement resilient HTTP requests</seealso>
+        public ApiClient(HttpClient client):
+            this(client, false)
         { }
 
         /// <summary>Creates an new instance of the <see cref="ApiClient" /> type.</summary>
+        /// <remarks>This creates a dedicated <see cref="HttpClient" /> that will be disposed with the created instance.</remarks>
+        /// <seealso href="https://docs.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests">Use IHttpClientFactory to implement resilient HTTP requests</seealso>
         public ApiClient(HttpMessageHandler messageHandler, bool disposeHandler) :
-            this(new HttpClient(messageHandler, disposeHandler))
+            this(new HttpClient(messageHandler, disposeHandler), true)
         { }
 
         /// <summary>Creates an new instance of the <see cref="ApiClient" /> type.</summary>
-        public ApiClient() :
-            this(new HttpClient())
+        /// <remarks>This creates a dedicated <see cref="HttpClient" /> that will be disposed with the created instance.</remarks>
+        /// <seealso href="https://docs.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests">Use IHttpClientFactory to implement resilient HTTP requests</seealso>
+        public ApiClient(HttpMessageHandler messageHandler) :
+            this(new HttpClient(messageHandler), true)
         { }
+
+        /// <summary>Creates an new instance of the <see cref="ApiClient" /> type.</summary>
+        /// <remarks>This creates a dedicated <see cref="HttpClient" /> that will be disposed with the created instance.</remarks>
+        /// <seealso href="https://docs.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests">Use IHttpClientFactory to implement resilient HTTP requests</seealso>
+        public ApiClient() :
+            this(new HttpClient(), true)
+        { }
+
+        /// <summary>Finalizes the current instance.</summary>
+        /// <seealso href="https://docs.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests">Use IHttpClientFactory to implement resilient HTTP requests</seealso>
+        ~ApiClient()
+        {
+            _Dispose(false);
+        }
+
+        /// <summary>Releases the unmanaged resources used by the current <see cref="ApiClient" />.</summary>
+        public void Dispose()
+        {
+            _Dispose(true);
+            GC.SuppressFinalize(this);
+        }
 
         /// <summary>Gets the flooding information about the metropolitan area.</summary>
         /// <param name="mode">The mode in which to retrieve the information.</param>
@@ -248,6 +281,12 @@ namespace Vigicrues
             return _GetEntityInformationAsync(territory, mode, cancellationToken);
         }
 
+        private void _Dispose(bool disposing)
+        {
+            if (disposing && _DisposeHttpClient)
+                _Client.Dispose();
+        }
+
         /// <summary>Gets the flooding information about the specified <paramref name="entityType" />.</summary>
         /// <param name="entityType">The type of entities to get information about.</param>
         /// <param name="mode">The mode in which to retrieve the information.</param>
@@ -280,6 +319,7 @@ namespace Vigicrues
             }
         }
 
+        private readonly bool _DisposeHttpClient;
         private readonly HttpClient _Client;
         private readonly JsonSerializerOptions _JsonSerializerOptions;
     }

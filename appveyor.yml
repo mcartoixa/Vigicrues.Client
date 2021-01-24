@@ -1,4 +1,4 @@
-version: 0.0.{build}.0
+version: 0.1.{build}.0
 image: Visual Studio 2019
 
 environment:
@@ -25,9 +25,38 @@ build_script:
 
 
 artifacts:
-  - path: tmp\out\bin\*.zip
+  - path: tmp\out\bin\*.nupkg
   - path: tmp\*results.xml
   - path: build.log
+
+
+
+deploy:
+  - provider: NuGet
+    server: https://www.myget.org/F/mcartoixa/api/v2/package
+    api_key:
+      secure: Iu8h9DYVcJWywLWAQowayV8lQzzU31p9SPyrTY7ItGxbciykN9Wy2AxuU3FE0RXT
+    artifact: /.*\.nupkg/
+    skip_symbols: true
+    on:
+      branch: main
+  - provider: GitHub
+    auth_token:
+      secure: EGY6f1dfY5J0ivpjEapNo9BMNUGXx+FhJ7TG7HI3LypJZ5WlrTP2fEm+QV5j6HHW
+    description: ''
+    artifact: /.*/
+    draft: true
+    on:
+      branch: main
+      appveyor_repo_tag: true
+  - provider: NuGet
+    api_key:
+      secure: TPglWbZZpZtWIcpUNxT8Ee9Yw9W0Shh22b2GZfdMN9cyM6rZZn+8b9qKh0KHIuwK
+    artifact: /.*\.nupkg/
+    skip_symbols: true
+    on:
+      branch: main
+      appveyor_repo_tag: true
 
 
 

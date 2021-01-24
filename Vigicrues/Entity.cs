@@ -7,10 +7,22 @@ namespace Vigicrues
     /// <summary>Entity for flood vigilance.</summary>
     /// <seealso href="http://id.eaufrance.fr/ddd/VIC/1.1/EntVigiCru" />
     [JsonConverter(typeof(Serialization.EntityJsonConverter))]
-    public abstract class Entity
+    public abstract class Entity:
+        IVigicrueObject
     {
 
-        internal Entity(EntityType type)
+        /// <summary>Creates a new instance of the <see cref="Entity" /> type.</summary>
+        /// <param name="type">The geographical type of the entity.</param>
+        /// <param name="reference">The unique identifier of the entity.</param>
+        protected Entity(EntityType type, string reference):
+            this(type)
+        {
+            Reference = reference;
+        }
+
+        /// <summary>Creates a new instance of the <see cref="Entity" /> type.</summary>
+        /// <param name="type">The geographical type of the entity.</param>
+        protected Entity(EntityType type)
         {
             EntityType = type;
         }

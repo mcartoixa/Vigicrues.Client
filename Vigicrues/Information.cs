@@ -6,7 +6,8 @@ namespace Vigicrues
 
     /// <summary>Information about the situation an <see cref="Entity" /> is in regarding flood vigilance.</summary>
     /// <seealso href="http://id.eaufrance.fr/ddd/VIC/1.1#InfoVigiCru" />
-    public class Information
+    public class Information:
+        IVigicrueObject
     {
 
         /// <summary>Identifier of the information.</summary>

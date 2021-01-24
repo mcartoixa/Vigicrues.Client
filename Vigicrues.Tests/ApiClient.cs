@@ -32,14 +32,14 @@ namespace Vigicrues
         }
 
         [Fact]
-        public async void GetEntitiesAsync_ShouldReturnAListOfEntities()
+        public async void GetTerritoriesAsync_ShouldReturnAListOfTerritories()
         {
             // Arrange
             var fakeHttpMessageHandler = _CreateFakeHttpMessageHandler(HttpStatusCode.OK, Resources.HttpResponses.TerEntVigiCru);
             var client = new ApiClient(fakeHttpMessageHandler.Object, true);
 
             // Act
-            var result = await client.GetEntitiesAsync();
+            var result = await client.GetTerritoriesAsync();
 
             // Assert
             Assert.NotNull(result);
@@ -50,6 +50,30 @@ namespace Vigicrues
                Times.Exactly(1),
                ItExpr.Is<HttpRequestMessage>(req =>
                   req.Method == HttpMethod.Get && req.RequestUri == new Uri("https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld/")
+               ),
+               ItExpr.IsAny<CancellationToken>()
+            );
+        }
+
+        [Fact]
+        public async void GetTerritoryAsync_ShouldReturnTerritory()
+        {
+            // Arrange
+            var fakeHttpMessageHandler = _CreateFakeHttpMessageHandler(HttpStatusCode.OK, Resources.HttpResponses.TerEntVigiCru_CdEntVigiCru25);
+            var client = new ApiClient(fakeHttpMessageHandler.Object, true);
+            var input = new TerritoryEntity("25");
+
+            // Act
+            var result = await client.GetTerritoryAsync(input);
+
+            // Assert
+            Assert.NotNull(result);
+
+            fakeHttpMessageHandler.Protected().Verify(
+               "SendAsync",
+               Times.Exactly(1),
+               ItExpr.Is<HttpRequestMessage>(req =>
+                  req.Method == HttpMethod.Get && req.RequestUri == new Uri("https://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld/?CdEntVigiCru=25&TypEntVigiCru=5")
                ),
                ItExpr.IsAny<CancellationToken>()
             );

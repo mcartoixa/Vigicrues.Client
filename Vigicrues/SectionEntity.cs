@@ -7,8 +7,14 @@
     {
 
         /// <summary>Creates a new instance of the <see cref="SectionEntity" /> type.</summary>
-        public SectionEntity():
+        internal SectionEntity() :
             base(EntityType.Section)
+        { }
+
+        /// <summary>Creates a new instance of the <see cref="SectionEntity" /> type.</summary>
+        /// <param name="reference">The unique identifier of the entity.</param>
+        public SectionEntity(string reference) :
+            base(EntityType.Section, reference)
         { }
     }
 }

@@ -32,6 +32,56 @@ namespace Vigicrues
         }
 
         [Fact]
+        public async void GetSectionsAsync_ShouldReturnAListOfSections()
+        {
+            // Arrange
+            var fakeHttpMessageHandler = _CreateFakeHttpMessageHandler(HttpStatusCode.OK, Resources.HttpResponses.TronEntVigiCru);
+            var client = new ApiClient(fakeHttpMessageHandler.Object, true);
+
+            // Act
+            var result = await client.GetSectionsAsync();
+
+            // Assert
+            Assert.NotNull(result);
+            Assert.NotEmpty(result);
+
+            fakeHttpMessageHandler.Protected().Verify(
+               "SendAsync",
+               Times.Exactly(1),
+               ItExpr.Is<HttpRequestMessage>(req =>
+                  req.Method == HttpMethod.Get && req.RequestUri == new Uri("https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld/")
+               ),
+               ItExpr.IsAny<CancellationToken>()
+            );
+        }
+
+        [Fact]
+        public async void GetSectionAsync_ShouldReturnSection()
+        {
+            // Arrange
+            var fakeHttpMessageHandler = _CreateFakeHttpMessageHandler(HttpStatusCode.OK, Resources.HttpResponses.TronEntVigiCru_CdEntVigiCruAP1);
+            var client = new ApiClient(fakeHttpMessageHandler.Object, true);
+            var input = new SectionEntity("AP1");
+
+            // Act
+            var result = await client.GetSectionAsync(input);
+
+            // Assert
+            Assert.NotNull(result);
+            Assert.Equal("AP1", result.Reference);
+            Assert.Equal(3, result.Children.Length);
+
+            fakeHttpMessageHandler.Protected().Verify(
+               "SendAsync",
+               Times.Exactly(1),
+               ItExpr.Is<HttpRequestMessage>(req =>
+                  req.Method == HttpMethod.Get && req.RequestUri == new Uri("https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld/?CdEntVigiCru=AP1&TypEntVigiCru=8")
+               ),
+               ItExpr.IsAny<CancellationToken>()
+            );
+        }
+
+        [Fact]
         public async void GetTerritoriesAsync_ShouldReturnAListOfTerritories()
         {
             // Arrange
@@ -68,6 +118,7 @@ namespace Vigicrues
 
             // Assert
             Assert.NotNull(result);
+            Assert.Equal("25", result.Reference);
 
             fakeHttpMessageHandler.Protected().Verify(
                "SendAsync",

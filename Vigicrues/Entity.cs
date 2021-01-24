@@ -69,8 +69,8 @@ namespace Vigicrues
         /// <summary>Entities that are downstream from the current one.</summary>
         [JsonPropertyName("vic:estEnAmont")]
         public Entity[] IsUpstreamFrom { get; set; } = new Entity[0];
-        /// <summary>Parent entities.</summary>
+        /// <summary>Parent entity.</summary>
         [JsonPropertyName("vic:aNPlusUn")]
-        public Entity[] Parents { get; set; } = new Entity[0];
+        public Entity? Parent { get; set; }
     }
 }

@@ -103,5 +103,49 @@ namespace Vigicrues.Resources {
                 return ResourceManager.GetString("TerEntVigiCru_CdEntVigiCru25", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à {
+        ///    &quot;@context&quot;: {
+        ///        &quot;mat&quot;: &quot;http://id.eaufrance.fr/ddd/mat/3.1/&quot;,
+        ///        &quot;int&quot;: &quot;http://id.eaufrance.fr/ddd/int/2/&quot;,
+        ///        &quot;vic&quot;: &quot;http://id.eaufrance.fr/ddd/vic/1.1/&quot;,
+        ///        &quot;com&quot;: &quot;http://id.eaufrance.fr/ddd/com/4/&quot;,
+        ///        &quot;hyd&quot;: &quot;http://id.eaufrance.fr/ddd/hyd/2.3/&quot;,
+        ///        &quot;eth&quot;: &quot;http://id.eaufrance.fr/ddd/eth/2/&quot;,
+        ///        &quot;zon&quot;: &quot;http://id.eaufrance.fr/ddd/zon/2.2/&quot;,
+        ///        &quot;mdo&quot;: &quot;http://id.eaufrance.fr/ddd/mdo/1.4/&quot;
+        ///    },
+        ///    &quot;mat:Scenario&quot;: {
+        ///        &quot;Flux&quot;: {
+        ///        [le reste de la chaîne a été tronqué]&quot;;.
+        /// </summary>
+        internal static string TronEntVigiCru {
+            get {
+                return ResourceManager.GetString("TronEntVigiCru", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à {
+        ///    &quot;@context&quot;: {
+        ///        &quot;mat&quot;: &quot;http://id.eaufrance.fr/ddd/mat/3.1/&quot;,
+        ///        &quot;int&quot;: &quot;http://id.eaufrance.fr/ddd/int/2/&quot;,
+        ///        &quot;vic&quot;: &quot;http://id.eaufrance.fr/ddd/vic/1.1/&quot;,
+        ///        &quot;com&quot;: &quot;http://id.eaufrance.fr/ddd/com/4/&quot;,
+        ///        &quot;hyd&quot;: &quot;http://id.eaufrance.fr/ddd/hyd/2.3/&quot;,
+        ///        &quot;eth&quot;: &quot;http://id.eaufrance.fr/ddd/eth/2/&quot;,
+        ///        &quot;zon&quot;: &quot;http://id.eaufrance.fr/ddd/zon/2.2/&quot;,
+        ///        &quot;mdo&quot;: &quot;http://id.eaufrance.fr/ddd/mdo/1.4/&quot;
+        ///    },
+        ///    &quot;mat:Scenario&quot;: {
+        ///        &quot;Flux&quot;: {
+        ///        [le reste de la chaîne a été tronqué]&quot;;.
+        /// </summary>
+        internal static string TronEntVigiCru_CdEntVigiCruAP1 {
+            get {
+                return ResourceManager.GetString("TronEntVigiCru_CdEntVigiCruAP1", resourceCulture);
+            }
+        }
     }
 }

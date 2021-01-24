@@ -32,6 +32,22 @@ namespace Vigicrues
             public TerritoryEntity Territory { get; set; } = new TerritoryEntity();
         }
 
+        internal class TronEntVigiCruList
+        {
+
+            [JsonPropertyName("count_TronEntVigiCru")]
+            public int SectionsCount { get; set; }
+            [JsonPropertyName("vic:TronEntVigiCru")]
+            public SectionEntity[] Sections { get; set; } = new SectionEntity[0];
+        }
+
+        internal class TronEntVigiCru
+        {
+
+            [JsonPropertyName("vic:TronEntVigiCru")]
+            public SectionEntity Section { get; set; } = new SectionEntity();
+        }
+
         /// <summary>Creates an new instance of the <see cref="ApiClient" /> type.</summary>
         /// <param name="client"></param>
         public ApiClient(HttpClient client)
@@ -61,6 +77,37 @@ namespace Vigicrues
             this(new HttpClient())
         { }
 
+        /// <summary>Gets all the sections concerned by the Vigicrues API.</summary>
+        /// <remarks>Every entity is returned with minimal information.</remarks>
+        /// <param name="cancellationToken">A cancellation token.</param>
+        /// <returns>All the territorial entities concerned.</returns>
+        /// <seealso href="https://www.vigicrues.gouv.fr/services/1/#faq2" />
+        public async Task<IEnumerable<SectionEntity>> GetSectionsAsync(CancellationToken cancellationToken = default(CancellationToken))
+        {
+            using (Stream stream = await _Client.GetStreamAsync("TronEntVigiCru.jsonld/"))
+            {
+                TronEntVigiCruList result = await JsonSerializer.DeserializeAsync<TronEntVigiCruList>(stream, _JsonSerializerOptions, cancellationToken) ?? new TronEntVigiCruList();
+                Debug.Assert(result.SectionsCount == result.Sections.Length);
+
+                return result.Sections;
+            }
+        }
+
+        /// <summary>Gets detailed information about the specified <paramref name="section" />.</summary>
+        /// <param name="section">The territory to get detailed information about.</param>
+        /// <param name="cancellationToken">A cancellation token.</param>
+        /// <returns>The detailed information about the specified <paramref name="section" />.</returns>
+        /// <seealso href="https://www.vigicrues.gouv.fr/services/1/#faq2" />
+        public async Task<SectionEntity> GetSectionAsync(SectionEntity section, CancellationToken cancellationToken = default(CancellationToken))
+        {
+            using (Stream stream = await _Client.GetStreamAsync($"TronEntVigiCru.jsonld/?CdEntVigiCru={section.Reference}&TypEntVigiCru={section.EntityType:d}"))
+            {
+                TronEntVigiCru result = await JsonSerializer.DeserializeAsync<TronEntVigiCru>(stream, _JsonSerializerOptions, cancellationToken) ?? new TronEntVigiCru();
+
+                return result.Section;
+            }
+        }
+
         /// <summary>Gets all the territorial entities concerned by the Vigicrues API.</summary>
         /// <remarks>Every entity is returned with minimal information.</remarks>
         /// <param name="cancellationToken">A cancellation token.</param>
@@ -81,6 +128,7 @@ namespace Vigicrues
         /// <param name="territory">The territory to get detailed information about.</param>
         /// <param name="cancellationToken">A cancellation token.</param>
         /// <returns>The detailed information about the specified <paramref name="territory" />.</returns>
+        /// <seealso href="https://www.vigicrues.gouv.fr/services/1/#faq1" />
         public async Task<TerritoryEntity> GetTerritoryAsync(TerritoryEntity territory, CancellationToken cancellationToken = default(CancellationToken))
         {
             // Wait for it...

@@ -546,4 +546,2703 @@
     }
 }</value>
   </data>
+  <data name="TronEntVigiCru" xml:space="preserve">
+    <value>{
+    "@context": {
+        "mat": "http://id.eaufrance.fr/ddd/mat/3.1/",
+        "int": "http://id.eaufrance.fr/ddd/int/2/",
+        "vic": "http://id.eaufrance.fr/ddd/vic/1.1/",
+        "com": "http://id.eaufrance.fr/ddd/com/4/",
+        "hyd": "http://id.eaufrance.fr/ddd/hyd/2.3/",
+        "eth": "http://id.eaufrance.fr/ddd/eth/2/",
+        "zon": "http://id.eaufrance.fr/ddd/zon/2.2/",
+        "mdo": "http://id.eaufrance.fr/ddd/mdo/1.4/"
+    },
+    "mat:Scenario": {
+        "Flux": {
+            "Version": "béta",
+            "DateRevision": "2019-09-16T11:30:00"
+        },
+        "mat:CodeScenario": "VICGeo",
+        "mat:VersionScenario": "1beta",
+        "mat:NomScenario": "Vigilance crues aux formats géo",
+        "DateHeureCreationFichier": "2021-01-24T06:12:41+00:00",
+        "Emetteur": {
+            "@id": "http://id.eaufrance.fr/int/1537",
+            "int:CdIntervenant": "1537"
+        }
+    },
+    "count_TronEntVigiCru": 323,
+    "vic:TronEntVigiCru": [
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD1",
+            "vic:CdEntVigiCru": "AD1",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Adour amont - Echez",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AD1&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AD1&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD10",
+            "vic:CdEntVigiCru": "AD10",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Nivelle",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AD10&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AD10&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD16",
+            "vic:CdEntVigiCru": "AD16",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Adour maritime",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AD16&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AD16&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD17",
+            "vic:CdEntVigiCru": "AD17",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Adour moyen",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AD17&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AD17&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD18",
+            "vic:CdEntVigiCru": "AD18",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Gaves réunis",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AD18&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AD18&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD19",
+            "vic:CdEntVigiCru": "AD19",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Gave d'Oloron",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AD19&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AD19&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD2",
+            "vic:CdEntVigiCru": "AD2",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Arros - Bouès",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AD2&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AD2&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD20",
+            "vic:CdEntVigiCru": "AD20",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Gave de Pau béarnais",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AD20&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AD20&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD21",
+            "vic:CdEntVigiCru": "AD21",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Gave de Pau bigourdan",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AD21&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AD21&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD5",
+            "vic:CdEntVigiCru": "AD5",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Midouze",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AD5&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AD5&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD8",
+            "vic:CdEntVigiCru": "AD8",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Saison",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AD8&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AD8&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AD9",
+            "vic:CdEntVigiCru": "AD9",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Nive",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AD9&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AD9&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL10",
+            "vic:CdEntVigiCru": "AL10",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Allier brivadois",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AL10&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AL10&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL11",
+            "vic:CdEntVigiCru": "AL11",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Haut Allier",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AL11&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AL11&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL12",
+            "vic:CdEntVigiCru": "AL12",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Dore amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AL12&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AL12&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL13",
+            "vic:CdEntVigiCru": "AL13",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Dore aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AL13&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AL13&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL14",
+            "vic:CdEntVigiCru": "AL14",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Couzes",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AL14&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AL14&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL15",
+            "vic:CdEntVigiCru": "AL15",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Sioule intermédiaire",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AL15&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AL15&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL16",
+            "vic:CdEntVigiCru": "AL16",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Sioule aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AL16&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AL16&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL2",
+            "vic:CdEntVigiCru": "AL2",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Alagnon",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AL2&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AL2&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL3",
+            "vic:CdEntVigiCru": "AL3",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Allier entre Alagnon et Dore",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AL3&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AL3&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL5",
+            "vic:CdEntVigiCru": "AL5",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Allier entre Dore et Sioule",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AL5&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AL5&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL6",
+            "vic:CdEntVigiCru": "AL6",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Sioulet - Sioule amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AL6&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AL6&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AL8",
+            "vic:CdEntVigiCru": "AL8",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Allier à l'aval de la Sioule",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AL8&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AL8&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN11",
+            "vic:CdEntVigiCru": "AN11",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Isère moyenne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AN11&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AN11&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN12",
+            "vic:CdEntVigiCru": "AN12",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Isère grenobloise",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AN12&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AN12&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN13",
+            "vic:CdEntVigiCru": "AN13",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Isère Basse-Tarentaise",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AN13&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AN13&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN14",
+            "vic:CdEntVigiCru": "AN14",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Isère Haute-Combe de Savoie",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AN14&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AN14&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN20",
+            "vic:CdEntVigiCru": "AN20",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Isère aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AN20&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AN20&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN30",
+            "vic:CdEntVigiCru": "AN30",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Drac aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AN30&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AN30&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN40",
+            "vic:CdEntVigiCru": "AN40",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Arc aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AN40&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AN40&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN41",
+            "vic:CdEntVigiCru": "AN41",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Arc moyen",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AN41&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AN41&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN42",
+            "vic:CdEntVigiCru": "AN42",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Arve médian",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AN42&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AN42&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN43",
+            "vic:CdEntVigiCru": "AN43",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Arve aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AN43&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AN43&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AN44",
+            "vic:CdEntVigiCru": "AN44",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Giffre aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AN44&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AN44&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP1",
+            "vic:CdEntVigiCru": "AP1",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Sambre",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP1&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP1&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP12",
+            "vic:CdEntVigiCru": "AP12",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Hem",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP12&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP12&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP13",
+            "vic:CdEntVigiCru": "AP13",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Lys amont - Laquette",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP13&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP13&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP14",
+            "vic:CdEntVigiCru": "AP14",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Lys plaine",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP14&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP14&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP15",
+            "vic:CdEntVigiCru": "AP15",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Lawe - Clarence amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP15&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP15&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP16",
+            "vic:CdEntVigiCru": "AP16",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Canche",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP16&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP16&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP2",
+            "vic:CdEntVigiCru": "AP2",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Helpe mineure",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP2&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP2&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP3",
+            "vic:CdEntVigiCru": "AP3",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Helpe majeure",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP3&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP3&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP4",
+            "vic:CdEntVigiCru": "AP4",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Solre",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP4&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP4&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP5",
+            "vic:CdEntVigiCru": "AP5",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Aa",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP5&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP5&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP6",
+            "vic:CdEntVigiCru": "AP6",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Liane",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP6&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP6&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP7",
+            "vic:CdEntVigiCru": "AP7",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Somme",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=AP7&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP7&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT1",
+            "vic:CdEntVigiCru": "BT1",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Morlaix",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=BT1&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=BT1&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT10",
+            "vic:CdEntVigiCru": "BT10",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Meu",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=BT10&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=BT10&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT11",
+            "vic:CdEntVigiCru": "BT11",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Ille",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=BT11&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=BT11&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT12",
+            "vic:CdEntVigiCru": "BT12",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Seiche",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=BT12&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=BT12&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT13",
+            "vic:CdEntVigiCru": "BT13",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Leguer - Guindy - Jaudy",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=BT13&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=BT13&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT14",
+            "vic:CdEntVigiCru": "BT14",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Trieux - Leff - Gouët",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=BT14&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=BT14&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT15",
+            "vic:CdEntVigiCru": "BT15",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Gouessant - Arguenon - Rance",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=BT15&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=BT15&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT2",
+            "vic:CdEntVigiCru": "BT2",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Aulne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=BT2&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=BT2&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT3",
+            "vic:CdEntVigiCru": "BT3",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Odet",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=BT3&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=BT3&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT4",
+            "vic:CdEntVigiCru": "BT4",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Laïta",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=BT4&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=BT4&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT5",
+            "vic:CdEntVigiCru": "BT5",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Blavet",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=BT5&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=BT5&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT6",
+            "vic:CdEntVigiCru": "BT6",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Vilaine aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=BT6&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=BT6&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT7",
+            "vic:CdEntVigiCru": "BT7",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Oust",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=BT7&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=BT7&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT8",
+            "vic:CdEntVigiCru": "BT8",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Vilaine médiane",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=BT8&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=BT8&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/BT9",
+            "vic:CdEntVigiCru": "BT9",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Vilaine amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=BT9&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=BT9&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/CO1",
+            "vic:CdEntVigiCru": "CO1",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Golo aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=CO1&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=CO1&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/CO2",
+            "vic:CdEntVigiCru": "CO2",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Golo amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=CO2&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=CO2&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/CO3",
+            "vic:CdEntVigiCru": "CO3",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Tavignano aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=CO3&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=CO3&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO1",
+            "vic:CdEntVigiCru": "DO1",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Céou",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=DO1&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=DO1&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO10",
+            "vic:CdEntVigiCru": "DO10",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Isle amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=DO10&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=DO10&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO11",
+            "vic:CdEntVigiCru": "DO11",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Vézère amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=DO11&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=DO11&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO12",
+            "vic:CdEntVigiCru": "DO12",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Vézère aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=DO12&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=DO12&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO20",
+            "vic:CdEntVigiCru": "DO20",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Dordogne amont - Cère - Maronne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=DO20&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=DO20&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO4",
+            "vic:CdEntVigiCru": "DO4",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Dordogne moyenne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=DO4&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=DO4&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO5",
+            "vic:CdEntVigiCru": "DO5",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Dordogne aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=DO5&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=DO5&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO6",
+            "vic:CdEntVigiCru": "DO6",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Corrèze",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=DO6&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=DO6&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO7",
+            "vic:CdEntVigiCru": "DO7",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Dronne aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=DO7&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=DO7&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO8",
+            "vic:CdEntVigiCru": "DO8",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Dronne amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=DO8&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=DO8&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/DO9",
+            "vic:CdEntVigiCru": "DO9",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Isle aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=DO9&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=DO9&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA1",
+            "vic:CdEntVigiCru": "GA1",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Cèze amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA1&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA1&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA10",
+            "vic:CdEntVigiCru": "GA10",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Rhône de Pont St Esprit à Avignon",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA10&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA10&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA12",
+            "vic:CdEntVigiCru": "GA12",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Aygues",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA12&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA12&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA13",
+            "vic:CdEntVigiCru": "GA13",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Ouvèze 84",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA13&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA13&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA14",
+            "vic:CdEntVigiCru": "GA14",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Durance de Cadarache à Avignon",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA14&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA14&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA17",
+            "vic:CdEntVigiCru": "GA17",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Ardèche amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA17&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA17&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA2",
+            "vic:CdEntVigiCru": "GA2",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Cèze aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA2&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA2&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA21",
+            "vic:CdEntVigiCru": "GA21",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Durance de Sisteron à Cadarache",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA21&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA21&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA22",
+            "vic:CdEntVigiCru": "GA22",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Ardèche aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA22&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA22&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA23",
+            "vic:CdEntVigiCru": "GA23",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Baume - Chassezac",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA23&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA23&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA24",
+            "vic:CdEntVigiCru": "GA24",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Doux - Cance - Ay",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA24&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA24&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA25",
+            "vic:CdEntVigiCru": "GA25",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Ouvèze - Eyrieux",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA25&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA25&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA26",
+            "vic:CdEntVigiCru": "GA26",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Rhône de Valence à Pont St Esprit",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA26&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA26&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA27",
+            "vic:CdEntVigiCru": "GA27",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Rhône en amont de Valence",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA27&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA27&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA3",
+            "vic:CdEntVigiCru": "GA3",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Gardons d'Alès",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA3&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA3&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA30",
+            "vic:CdEntVigiCru": "GA30",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Durance de Serre-Ponçon à Sisteron",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA30&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA30&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA31",
+            "vic:CdEntVigiCru": "GA31",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Calavon - Coulon",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA31&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA31&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA4",
+            "vic:CdEntVigiCru": "GA4",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Gardon d'Anduze",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA4&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA4&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA5",
+            "vic:CdEntVigiCru": "GA5",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Gardon aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA5&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA5&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA6",
+            "vic:CdEntVigiCru": "GA6",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Vidourle",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA6&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA6&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA7",
+            "vic:CdEntVigiCru": "GA7",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Vistre",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA7&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA7&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GA9",
+            "vic:CdEntVigiCru": "GA9",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Rhône d'Avignon à la mer",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GA9&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GA9&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GU1",
+            "vic:CdEntVigiCru": "GU1",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Lawa amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GU1&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GU1&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GU2",
+            "vic:CdEntVigiCru": "GU2",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Lawa aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GU2&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GU2&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GU3",
+            "vic:CdEntVigiCru": "GU3",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Moyenne vallée du Maroni",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GU3&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GU3&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/GU4",
+            "vic:CdEntVigiCru": "GU4",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Basse vallée du Maroni",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=GU4&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=GU4&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF10",
+            "vic:CdEntVigiCru": "IF10",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Armançon",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=IF10&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=IF10&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF11",
+            "vic:CdEntVigiCru": "IF11",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Seine Bassée francilienne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=IF11&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=IF11&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF12",
+            "vic:CdEntVigiCru": "IF12",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Loing amont - Ouanne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=IF12&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=IF12&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF13",
+            "vic:CdEntVigiCru": "IF13",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Loing aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=IF13&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=IF13&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF14",
+            "vic:CdEntVigiCru": "IF14",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Brenne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=IF14&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=IF14&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF15",
+            "vic:CdEntVigiCru": "IF15",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Marne de la Ferté à Meaux",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=IF15&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=IF15&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF16",
+            "vic:CdEntVigiCru": "IF16",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Grand Morin aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=IF16&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=IF16&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF17",
+            "vic:CdEntVigiCru": "IF17",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Marne de Condé à Charenton",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=IF17&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=IF17&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF18",
+            "vic:CdEntVigiCru": "IF18",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Seine yvelinoise",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=IF18&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=IF18&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF19",
+            "vic:CdEntVigiCru": "IF19",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Seine euroise",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=IF19&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=IF19&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF2",
+            "vic:CdEntVigiCru": "IF2",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Oise aval francilienne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=IF2&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=IF2&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF3",
+            "vic:CdEntVigiCru": "IF3",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Seine moyenne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=IF3&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=IF3&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF5",
+            "vic:CdEntVigiCru": "IF5",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Seine à Paris",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=IF5&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=IF5&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF7",
+            "vic:CdEntVigiCru": "IF7",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Yonne aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=IF7&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=IF7&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF8",
+            "vic:CdEntVigiCru": "IF8",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Yonne amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=IF8&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=IF8&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/IF9",
+            "vic:CdEntVigiCru": "IF9",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Serein",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=IF9&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=IF9&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA1",
+            "vic:CdEntVigiCru": "LA1",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Seudre",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LA1&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LA1&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA10",
+            "vic:CdEntVigiCru": "LA10",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Confluence Garonne - Dordogne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LA10&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LA10&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA11",
+            "vic:CdEntVigiCru": "LA11",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Garonne girondine",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LA11&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LA11&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA12",
+            "vic:CdEntVigiCru": "LA12",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Charente source",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LA12&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LA12&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA13",
+            "vic:CdEntVigiCru": "LA13",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Estuaire Gironde",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LA13&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LA13&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA14",
+            "vic:CdEntVigiCru": "LA14",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Bandiat - Tardoire",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LA14&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LA14&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA15",
+            "vic:CdEntVigiCru": "LA15",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Estuaire Charente",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LA15&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LA15&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA17",
+            "vic:CdEntVigiCru": "LA17",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Boutonne amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LA17&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LA17&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA18",
+            "vic:CdEntVigiCru": "LA18",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Sèvre niortaise aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LA18&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LA18&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA19",
+            "vic:CdEntVigiCru": "LA19",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Vendée",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LA19&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LA19&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA2",
+            "vic:CdEntVigiCru": "LA2",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Seugne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LA2&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LA2&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA3",
+            "vic:CdEntVigiCru": "LA3",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Charente aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LA3&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LA3&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA4",
+            "vic:CdEntVigiCru": "LA4",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Boutonne aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LA4&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LA4&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA5",
+            "vic:CdEntVigiCru": "LA5",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Sèvre niortaise amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LA5&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LA5&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA6",
+            "vic:CdEntVigiCru": "LA6",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Charente moyenne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LA6&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LA6&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LA7",
+            "vic:CdEntVigiCru": "LA7",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Charente amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LA7&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LA7&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC105",
+            "vic:CdEntVigiCru": "LC105",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Loire vellave",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC105&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC105&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC115",
+            "vic:CdEntVigiCru": "LC115",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Borne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC115&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC115&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC123",
+            "vic:CdEntVigiCru": "LC123",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Lignon du Velay",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC123&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC123&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC126",
+            "vic:CdEntVigiCru": "LC126",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Loire forézienne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC126&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC126&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC130",
+            "vic:CdEntVigiCru": "LC130",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Loire charollaise",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC130&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC130&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC134",
+            "vic:CdEntVigiCru": "LC134",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Arroux",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC134&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC134&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC137",
+            "vic:CdEntVigiCru": "LC137",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Bourbince",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC137&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC137&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC140",
+            "vic:CdEntVigiCru": "LC140",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Loire nivernaise",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC140&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC140&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC145",
+            "vic:CdEntVigiCru": "LC145",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Besbre",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC145&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC145&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC155",
+            "vic:CdEntVigiCru": "LC155",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Aron",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC155&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC155&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC165",
+            "vic:CdEntVigiCru": "LC165",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Loire giennoise",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC165&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC165&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC175",
+            "vic:CdEntVigiCru": "LC175",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Loire orléanaise",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC175&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC175&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC185",
+            "vic:CdEntVigiCru": "LC185",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Loire blaisoise",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC185&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC185&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC195",
+            "vic:CdEntVigiCru": "LC195",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Loire tourangelle",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC195&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC195&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC210",
+            "vic:CdEntVigiCru": "LC210",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Tardes - Cher amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC210&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC210&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC220",
+            "vic:CdEntVigiCru": "LC220",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Cher berrichon",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC220&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC220&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC221",
+            "vic:CdEntVigiCru": "LC221",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Yèvre",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC221&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC221&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC230",
+            "vic:CdEntVigiCru": "LC230",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Cher solognot",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC230&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC230&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC235",
+            "vic:CdEntVigiCru": "LC235",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Arnon amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC235&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC235&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC245",
+            "vic:CdEntVigiCru": "LC245",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Arnon aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC245&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC245&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC255",
+            "vic:CdEntVigiCru": "LC255",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Théols",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC255&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC255&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC265",
+            "vic:CdEntVigiCru": "LC265",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Sauldre amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC265&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC265&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC275",
+            "vic:CdEntVigiCru": "LC275",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Sauldre aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC275&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC275&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC285",
+            "vic:CdEntVigiCru": "LC285",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Cher dans le Val de Cher",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC285&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC285&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC295",
+            "vic:CdEntVigiCru": "LC295",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Cher tourangeau",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC295&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC295&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC315",
+            "vic:CdEntVigiCru": "LC315",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Indre amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC315&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC315&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC325",
+            "vic:CdEntVigiCru": "LC325",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Indre berrichonne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC325&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC325&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC335",
+            "vic:CdEntVigiCru": "LC335",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Indre moyenne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC335&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC335&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LC345",
+            "vic:CdEntVigiCru": "LC345",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Indre tourangelle",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LC345&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LC345&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO10",
+            "vic:CdEntVigiCru": "LO10",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Moselle aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LO10&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LO10&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO12",
+            "vic:CdEntVigiCru": "LO12",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Nieds",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LO12&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LO12&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO13",
+            "vic:CdEntVigiCru": "LO13",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Orne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LO13&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LO13&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO14",
+            "vic:CdEntVigiCru": "LO14",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Seille",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LO14&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LO14&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO15",
+            "vic:CdEntVigiCru": "LO15",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Meuse amont et sammielloise",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LO15&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LO15&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO16",
+            "vic:CdEntVigiCru": "LO16",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Meuse couloir meusien",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LO16&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LO16&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO17",
+            "vic:CdEntVigiCru": "LO17",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Meuse plaine ardennaise",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LO17&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LO17&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO18",
+            "vic:CdEntVigiCru": "LO18",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Meuse frontalière - Semoy",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LO18&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LO18&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO19",
+            "vic:CdEntVigiCru": "LO19",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Chiers amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LO19&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LO19&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO20",
+            "vic:CdEntVigiCru": "LO20",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Chiers aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LO20&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LO20&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO21",
+            "vic:CdEntVigiCru": "LO21",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Meurthe amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LO21&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LO21&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO22",
+            "vic:CdEntVigiCru": "LO22",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Vezouze",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LO22&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LO22&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO23",
+            "vic:CdEntVigiCru": "LO23",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Mortagne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LO23&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LO23&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO24",
+            "vic:CdEntVigiCru": "LO24",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Moselle amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LO24&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LO24&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO25",
+            "vic:CdEntVigiCru": "LO25",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Moselle médiane",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LO25&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LO25&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO26",
+            "vic:CdEntVigiCru": "LO26",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Madon",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LO26&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LO26&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/LO4",
+            "vic:CdEntVigiCru": "LO4",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Meurthe aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=LO4&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=LO4&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ME1",
+            "vic:CdEntVigiCru": "ME1",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Huveaune",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ME1&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ME1&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ME2",
+            "vic:CdEntVigiCru": "ME2",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Var amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ME2&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ME2&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ME3",
+            "vic:CdEntVigiCru": "ME3",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Var aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ME3&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ME3&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ME4",
+            "vic:CdEntVigiCru": "ME4",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Nartuby",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ME4&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ME4&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ME5",
+            "vic:CdEntVigiCru": "ME5",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Argens moyen",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ME5&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ME5&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ME6",
+            "vic:CdEntVigiCru": "ME6",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Argens aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ME6&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ME6&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ME7",
+            "vic:CdEntVigiCru": "ME7",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Gapeau",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ME7&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ME7&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ME8",
+            "vic:CdEntVigiCru": "ME8",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Arc",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ME8&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ME8&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML100",
+            "vic:CdEntVigiCru": "ML100",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Loir amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ML100&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ML100&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML101",
+            "vic:CdEntVigiCru": "ML101",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Loir Vendômois",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ML101&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ML101&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML11",
+            "vic:CdEntVigiCru": "ML11",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Loire saumuroise",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ML11&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ML11&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML13",
+            "vic:CdEntVigiCru": "ML13",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Sarthe aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ML13&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ML13&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML14",
+            "vic:CdEntVigiCru": "ML14",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Loire aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ML14&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ML14&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML15",
+            "vic:CdEntVigiCru": "ML15",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Loire estuaire",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ML15&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ML15&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML16",
+            "vic:CdEntVigiCru": "ML16",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Lay",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ML16&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ML16&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML17",
+            "vic:CdEntVigiCru": "ML17",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Sèvre nantaise amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ML17&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ML17&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML18",
+            "vic:CdEntVigiCru": "ML18",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Sèvre nantaise aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ML18&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ML18&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML2",
+            "vic:CdEntVigiCru": "ML2",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Loir aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ML2&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ML2&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML3",
+            "vic:CdEntVigiCru": "ML3",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Huisne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ML3&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ML3&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML4",
+            "vic:CdEntVigiCru": "ML4",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Sarthe amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ML4&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ML4&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML7",
+            "vic:CdEntVigiCru": "ML7",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Mayenne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ML7&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ML7&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML8",
+            "vic:CdEntVigiCru": "ML8",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Oudon",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ML8&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ML8&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/ML9",
+            "vic:CdEntVigiCru": "ML9",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Basses vallées angevines",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=ML9&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=ML9&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO1",
+            "vic:CdEntVigiCru": "MO1",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Hérault amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MO1&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MO1&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO10",
+            "vic:CdEntVigiCru": "MO10",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Basses plaines de l'Aude",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MO10&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MO10&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO11",
+            "vic:CdEntVigiCru": "MO11",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Agly",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MO11&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MO11&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO12",
+            "vic:CdEntVigiCru": "MO12",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Têt",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MO12&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MO12&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO14",
+            "vic:CdEntVigiCru": "MO14",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Lez",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MO14&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MO14&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO15",
+            "vic:CdEntVigiCru": "MO15",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Berre",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MO15&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MO15&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO16",
+            "vic:CdEntVigiCru": "MO16",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Réart",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MO16&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MO16&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO17",
+            "vic:CdEntVigiCru": "MO17",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Tech",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MO17&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MO17&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO2",
+            "vic:CdEntVigiCru": "MO2",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Hérault aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MO2&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MO2&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO4",
+            "vic:CdEntVigiCru": "MO4",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Orb amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MO4&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MO4&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO5",
+            "vic:CdEntVigiCru": "MO5",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Orb aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MO5&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MO5&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO6",
+            "vic:CdEntVigiCru": "MO6",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Haute vallée de l'Aude",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MO6&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MO6&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO7",
+            "vic:CdEntVigiCru": "MO7",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Vallée centrale de l'Aude",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MO7&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MO7&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO8",
+            "vic:CdEntVigiCru": "MO8",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Orbieu",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MO8&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MO8&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MO9",
+            "vic:CdEntVigiCru": "MO9",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Cesse",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MO9&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MO9&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP1",
+            "vic:CdEntVigiCru": "MP1",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Ariège - Hers vif",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MP1&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MP1&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP10",
+            "vic:CdEntVigiCru": "MP10",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Garonne marmandaise",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MP10&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MP10&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP11",
+            "vic:CdEntVigiCru": "MP11",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Hers Mort",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MP11&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MP11&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP2",
+            "vic:CdEntVigiCru": "MP2",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Ger - Salat",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MP2&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MP2&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP3",
+            "vic:CdEntVigiCru": "MP3",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Arize - Lèze",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MP3&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MP3&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP4",
+            "vic:CdEntVigiCru": "MP4",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Garonne amont - Nestes",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MP4&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MP4&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP6",
+            "vic:CdEntVigiCru": "MP6",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Garonne toulousaine",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MP6&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MP6&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP7",
+            "vic:CdEntVigiCru": "MP7",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Garonne agenaise",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MP7&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MP7&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP8",
+            "vic:CdEntVigiCru": "MP8",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Arrats - Gimone - Save - Touch",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MP8&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MP8&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/MP9",
+            "vic:CdEntVigiCru": "MP9",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Baïse - Gélise - Gers",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=MP9&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=MP9&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO1",
+            "vic:CdEntVigiCru": "NO1",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Seine aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=NO1&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=NO1&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO10",
+            "vic:CdEntVigiCru": "NO10",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Dives",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=NO10&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=NO10&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO11",
+            "vic:CdEntVigiCru": "NO11",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Orne amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=NO11&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=NO11&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO14",
+            "vic:CdEntVigiCru": "NO14",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Vire",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=NO14&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=NO14&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO2",
+            "vic:CdEntVigiCru": "NO2",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Epte",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=NO2&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=NO2&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO20",
+            "vic:CdEntVigiCru": "NO20",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Andelle",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=NO20&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=NO20&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO21",
+            "vic:CdEntVigiCru": "NO21",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Iton amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=NO21&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=NO21&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO22",
+            "vic:CdEntVigiCru": "NO22",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Iton aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=NO22&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=NO22&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO23",
+            "vic:CdEntVigiCru": "NO23",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Avre",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=NO23&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=NO23&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO3",
+            "vic:CdEntVigiCru": "NO3",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Eure amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=NO3&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=NO3&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO30",
+            "vic:CdEntVigiCru": "NO30",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Orne moyenne et aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=NO30&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=NO30&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO31",
+            "vic:CdEntVigiCru": "NO31",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Noireau",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=NO31&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=NO31&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO40",
+            "vic:CdEntVigiCru": "NO40",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Touques - Orbiquet - Calonne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=NO40&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=NO40&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO50",
+            "vic:CdEntVigiCru": "NO50",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Eure moyenne et aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=NO50&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=NO50&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO6",
+            "vic:CdEntVigiCru": "NO6",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Risle amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=NO6&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=NO6&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO7",
+            "vic:CdEntVigiCru": "NO7",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Risle aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=NO7&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=NO7&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/NO8",
+            "vic:CdEntVigiCru": "NO8",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Charentonne - Guiel",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=NO8&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=NO8&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/OA1",
+            "vic:CdEntVigiCru": "OA1",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Aisne amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=OA1&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=OA1&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/OA10",
+            "vic:CdEntVigiCru": "OA10",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Aisne ardennaise",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=OA10&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=OA10&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/OA11",
+            "vic:CdEntVigiCru": "OA11",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Aisne Vaux",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=OA11&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=OA11&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/OA4",
+            "vic:CdEntVigiCru": "OA4",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Oise amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=OA4&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=OA4&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/OA5",
+            "vic:CdEntVigiCru": "OA5",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Oise moyenne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=OA5&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=OA5&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/OA6",
+            "vic:CdEntVigiCru": "OA6",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Oise aval isarienne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=OA6&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=OA6&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/OA7",
+            "vic:CdEntVigiCru": "OA7",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Thérain",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=OA7&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=OA7&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/OA9",
+            "vic:CdEntVigiCru": "OA9",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Aisne aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=OA9&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=OA9&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS100",
+            "vic:CdEntVigiCru": "RS100",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Saône de la Seille à Lyon",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=RS100&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=RS100&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS11",
+            "vic:CdEntVigiCru": "RS11",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Saône à Lyon",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=RS11&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=RS11&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS12",
+            "vic:CdEntVigiCru": "RS12",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Bas Rhône en amont de l'Isère",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=RS12&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=RS12&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS130",
+            "vic:CdEntVigiCru": "RS130",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Haut Rhône en amont du Guiers",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=RS130&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=RS130&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS131",
+            "vic:CdEntVigiCru": "RS131",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Haut Rhône du Guiers à l'Ain",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=RS131&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=RS131&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS14",
+            "vic:CdEntVigiCru": "RS14",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Haut Rhône en aval de l'Ain",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=RS14&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=RS14&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS160",
+            "vic:CdEntVigiCru": "RS160",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Gier",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=RS160&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=RS160&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS17",
+            "vic:CdEntVigiCru": "RS17",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Allan",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=RS17&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=RS17&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS18",
+            "vic:CdEntVigiCru": "RS18",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Savoureuse",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=RS18&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=RS18&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS20",
+            "vic:CdEntVigiCru": "RS20",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Ognon en amont de la Linotte",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=RS20&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=RS20&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS201",
+            "vic:CdEntVigiCru": "RS201",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Saône en amont de la Lanterne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=RS201&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=RS201&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS202",
+            "vic:CdEntVigiCru": "RS202",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Saône de la Lanterne à l'Ognon",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=RS202&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=RS202&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS21",
+            "vic:CdEntVigiCru": "RS21",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Ognon en aval de la Linotte",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=RS21&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=RS21&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS23",
+            "vic:CdEntVigiCru": "RS23",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Ouche",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=RS23&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=RS23&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS30",
+            "vic:CdEntVigiCru": "RS30",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Doubs en amont de la Loue",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=RS30&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=RS30&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS41",
+            "vic:CdEntVigiCru": "RS41",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Loue",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=RS41&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=RS41&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS50",
+            "vic:CdEntVigiCru": "RS50",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Ain",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=RS50&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=RS50&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS6",
+            "vic:CdEntVigiCru": "RS6",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Seille",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=RS6&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=RS6&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS70",
+            "vic:CdEntVigiCru": "RS70",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Doubs en aval de la Loue",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=RS70&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=RS70&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS8",
+            "vic:CdEntVigiCru": "RS8",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Saône de l'Ognon au Doubs",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=RS8&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=RS8&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/RS90",
+            "vic:CdEntVigiCru": "RS90",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Saône du Doubs à la Seille",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=RS90&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=RS90&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA1",
+            "vic:CdEntVigiCru": "SA1",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Sarre amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SA1&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SA1&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA10",
+            "vic:CdEntVigiCru": "SA10",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Fecht",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SA10&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SA10&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA11",
+            "vic:CdEntVigiCru": "SA11",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Zorn - Zinsel",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SA11&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SA11&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA12",
+            "vic:CdEntVigiCru": "SA12",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Moder",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SA12&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SA12&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA13",
+            "vic:CdEntVigiCru": "SA13",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Rhin GCA",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SA13&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SA13&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA14",
+            "vic:CdEntVigiCru": "SA14",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Rhin canalisé amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SA14&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SA14&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA15",
+            "vic:CdEntVigiCru": "SA15",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Rhin canalisé aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SA15&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SA15&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA16",
+            "vic:CdEntVigiCru": "SA16",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Rhin courant libre",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SA16&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SA16&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA2",
+            "vic:CdEntVigiCru": "SA2",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Sarre moyenne - Eichel",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SA2&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SA2&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA3",
+            "vic:CdEntVigiCru": "SA3",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Sarre aval - Blies",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SA3&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SA3&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA4",
+            "vic:CdEntVigiCru": "SA4",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Ill amont - Largue",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SA4&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SA4&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA5",
+            "vic:CdEntVigiCru": "SA5",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Ill moyenne - Lauch",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SA5&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SA5&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA6",
+            "vic:CdEntVigiCru": "SA6",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Ill intermédiaire - Giessen",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SA6&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SA6&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA7",
+            "vic:CdEntVigiCru": "SA7",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Ill aval - Bruche",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SA7&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SA7&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA8",
+            "vic:CdEntVigiCru": "SA8",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Thur",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SA8&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SA8&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SA9",
+            "vic:CdEntVigiCru": "SA9",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Doller",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SA9&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SA9&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM10",
+            "vic:CdEntVigiCru": "SM10",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Aube amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SM10&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SM10&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM11",
+            "vic:CdEntVigiCru": "SM11",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Aube aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SM11&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SM11&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM12",
+            "vic:CdEntVigiCru": "SM12",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Saulx amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SM12&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SM12&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM13",
+            "vic:CdEntVigiCru": "SM13",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Saulx aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SM13&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SM13&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM14",
+            "vic:CdEntVigiCru": "SM14",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Ornain",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SM14&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SM14&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM15",
+            "vic:CdEntVigiCru": "SM15",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Marne moyenne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SM15&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SM15&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM16",
+            "vic:CdEntVigiCru": "SM16",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Marne champenoise",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SM16&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SM16&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM3",
+            "vic:CdEntVigiCru": "SM3",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Marne amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SM3&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SM3&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM5",
+            "vic:CdEntVigiCru": "SM5",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Marne Der",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SM5&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SM5&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM7",
+            "vic:CdEntVigiCru": "SM7",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Seine Bassée champenoise",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SM7&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SM7&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM8",
+            "vic:CdEntVigiCru": "SM8",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Seine amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SM8&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SM8&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/SM9",
+            "vic:CdEntVigiCru": "SM9",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Seine troyenne",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=SM9&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=SM9&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL1",
+            "vic:CdEntVigiCru": "TL1",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Agout - Thoré",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=TL1&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=TL1&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL10",
+            "vic:CdEntVigiCru": "TL10",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Lot amont - Truyère",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=TL10&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=TL10&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL11",
+            "vic:CdEntVigiCru": "TL11",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Lot moyen",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=TL11&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=TL11&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL12",
+            "vic:CdEntVigiCru": "TL12",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Célé",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=TL12&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=TL12&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL13",
+            "vic:CdEntVigiCru": "TL13",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Lot aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=TL13&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=TL13&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL3",
+            "vic:CdEntVigiCru": "TL3",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Haut Tarn",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=TL3&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=TL3&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL4",
+            "vic:CdEntVigiCru": "TL4",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Dourdou - Sorgues - Rance",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=TL4&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=TL4&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL5",
+            "vic:CdEntVigiCru": "TL5",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Tarn moyen",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=TL5&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=TL5&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL6",
+            "vic:CdEntVigiCru": "TL6",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Aveyron - Viaur",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=TL6&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=TL6&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/TL9",
+            "vic:CdEntVigiCru": "TL9",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Tarn aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=TL9&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=TL9&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT10",
+            "vic:CdEntVigiCru": "VT10",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Thouet amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=VT10&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=VT10&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT11",
+            "vic:CdEntVigiCru": "VT11",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Thouet aval",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=VT11&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=VT11&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT12",
+            "vic:CdEntVigiCru": "VT12",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Creuse amont",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=VT12&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=VT12&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT2",
+            "vic:CdEntVigiCru": "VT2",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Vienne tourangelle",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=VT2&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=VT2&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT3",
+            "vic:CdEntVigiCru": "VT3",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Vienne - Bec des Deux Eaux",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=VT3&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=VT3&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT4",
+            "vic:CdEntVigiCru": "VT4",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Clain",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=VT4&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=VT4&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT5",
+            "vic:CdEntVigiCru": "VT5",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Vienne médiane",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=VT5&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=VT5&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT6",
+            "vic:CdEntVigiCru": "VT6",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Vienne limousine",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=VT6&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=VT6&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT7",
+            "vic:CdEntVigiCru": "VT7",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Creuse - Bec des Deux Eaux",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=VT7&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=VT7&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT8",
+            "vic:CdEntVigiCru": "VT8",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Gartempe",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=VT8&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=VT8&amp;TypEntVigiCru=8"
+        },
+        {
+            "@id": "http://id.eaufrance.fr/TronEntVigiCru/VT9",
+            "vic:CdEntVigiCru": "VT9",
+            "vic:TypEntVigiCru": "8",
+            "vic:LbEntVigiCru": "Creuse médiane",
+            "LinkEntity": "https://www.vigicrues.gouv.fr/services/1/TronEntVigiCru.jsonld?CdEntVigiCru=VT9&amp;TypEntVigiCru=8",
+            "LinkInfoCru": "https://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=VT9&amp;TypEntVigiCru=8"
+        }
+    ]
+}</value>
+  </data>
+  <data name="TronEntVigiCru_CdEntVigiCruAP1" xml:space="preserve">
+    <value>{
+    "@context": {
+        "mat": "http://id.eaufrance.fr/ddd/mat/3.1/",
+        "int": "http://id.eaufrance.fr/ddd/int/2/",
+        "vic": "http://id.eaufrance.fr/ddd/vic/1.1/",
+        "com": "http://id.eaufrance.fr/ddd/com/4/",
+        "hyd": "http://id.eaufrance.fr/ddd/hyd/2.3/",
+        "eth": "http://id.eaufrance.fr/ddd/eth/2/",
+        "zon": "http://id.eaufrance.fr/ddd/zon/2.2/",
+        "mdo": "http://id.eaufrance.fr/ddd/mdo/1.4/"
+    },
+    "mat:Scenario": {
+        "Flux": {
+            "Version": "béta",
+            "DateRevision": "2019-09-16T11:30:00"
+        },
+        "mat:CodeScenario": "VICGeo",
+        "mat:VersionScenario": "1beta",
+        "mat:NomScenario": "Vigilance crues aux formats géo",
+        "DateHeureCreationFichier": "2021-01-24T06:15:28+00:00",
+        "Emetteur": {
+            "@id": "http://id.eaufrance.fr/int/1537",
+            "int:CdIntervenant": "1537"
+        }
+    },
+    "count_TronEntVigiCru": 1,
+    "vic:TronEntVigiCru": {
+        "@id": "http://id.eaufrance.fr/TronEntVigiCru/AP1",
+        "vic:CdEntVigiCru": "AP1",
+        "vic:TypEntVigiCru": "8",
+        "vic:LbEntVigiCru": "Sambre",
+        "vic:DtHrCreatEntVigiCru": "",
+        "vic:DtHrMajEntVigiCru": "",
+        "vic:StEntVigiCru": "Validé",
+        "vic:administre": {
+            "@id": "http://id.eaufrance.fr/int/ARenseigner",
+            "int:CdIntervenant": ""
+        },
+        "vic:aPourTCC": {
+            "@id": "http://id.eaufrance.fr/TCC/ARenseigner",
+            "vic:CdTCC": ""
+        },
+        "vic:aPourDistrictHydro": {
+            "@id": "http://id.eaufrance.fr/mdo/ARenseigner",
+            "mdo:CdEuDistrict": ""
+        },
+        "count_aNPlusUn": 1,
+        "vic:aNPlusUn": {
+            "@id": "http://id.eaufrance.fr/TerEntVigiCru/1",
+            "vic:CdEntVigiCru": "1",
+            "vic:TypEntVigiCru": "5",
+            "vic:LbEntVigiCru": "",
+            "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/TerEntVigiCru.jsonld?CdEntVigiCru=1&amp;TypEntVigiCru=",
+            "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=1&amp;TypEntVigiCru="
+        },
+        "count_aNMoinsUn": 3,
+        "vic:aNMoinsUn": [
+            {
+                "@id": "http://id.eaufrance.fr/StaEntVigiCru/D019223001",
+                "vic:CdEntVigiCru": "D019223001",
+                "vic:TypEntVigiCru": "7",
+                "vic:LbEntVigiCru": "Marpent",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/StaEntVigiCru.jsonld?CdEntVigiCru=D019223001&amp;TypEntVigiCru=7"
+            },
+            {
+                "@id": "http://id.eaufrance.fr/StaEntVigiCru/D016221001",
+                "vic:CdEntVigiCru": "D016221001",
+                "vic:TypEntVigiCru": "7",
+                "vic:LbEntVigiCru": "Berlaimont",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/StaEntVigiCru.jsonld?CdEntVigiCru=D016221001&amp;TypEntVigiCru=7"
+            },
+            {
+                "@id": "http://id.eaufrance.fr/StaEntVigiCru/D019801101",
+                "vic:CdEntVigiCru": "D019801101",
+                "vic:TypEntVigiCru": "7",
+                "vic:LbEntVigiCru": "Maubeuge [aval écluse]",
+                "LinkEntity": "http://www.vigicrues.gouv.fr/services/1/StaEntVigiCru.jsonld?CdEntVigiCru=D019801101&amp;TypEntVigiCru=7"
+            }
+        ],
+        "LinkInfoCru": "http://www.vigicrues.gouv.fr/services/1/InfoVigiCru.jsonld?CdEntVigiCru=AP1&amp;TypEntVigiCru=8"
+    }
+}</value>
+  </data>
 </root>

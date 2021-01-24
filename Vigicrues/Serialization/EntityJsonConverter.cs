@@ -71,7 +71,7 @@ namespace Vigicrues.Serialization
             ret.Informations = entity.Informations;
             ret.IsDownstreamFrom = entity.IsDownstreamFrom;
             ret.IsUpstreamFrom = entity.IsUpstreamFrom;
-            ret.Parents = entity.Parents;
+            ret.Parent = entity.Parent;
             ret.Reference = entity.Reference;
             ret.Status = entity.Status;
             ret.Updated = entity.Updated;

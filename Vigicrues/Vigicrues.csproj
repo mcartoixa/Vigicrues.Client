@@ -17,6 +17,7 @@
     <Company />
     <Product />
     <Description>This library provides a .NET wrapper around the Vigicrues API, which reports information about flooding hazards in France.</Description>
+    <PackageId>Vigicrues.Client</PackageId>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">

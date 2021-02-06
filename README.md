@@ -1,6 +1,6 @@
 # Vigicrues.Client
-[![Nuget](https://img.shields.io/nuget/v/Vigicrues?logo=nuget)](https://www.nuget.org/packages/Vigicrues/)
-[![MyGet](https://img.shields.io/myget/mcartoixa/vpre/Vigicrues)](https://www.myget.org/feed/mcartoixa/package/nuget/Vigicrues)
+[![Nuget](https://img.shields.io/nuget/v/Vigicrues.Client?logo=nuget)](https://www.nuget.org/packages/Vigicrues.Client/)
+[![MyGet](https://img.shields.io/myget/mcartoixa/vpre/Vigicrues.Client)](https://www.myget.org/feed/mcartoixa/package/nuget/Vigicrues.Client)
 [![Release](https://badgen.net/github/release/mcartoixa/Vigicrues.Client?icon=github)](https://github.com/mcartoixa/Vigicrues.Client/releases)
 
 [![Build status](https://ci.appveyor.com/api/projects/status/dxhegfa9ow48axtn?svg=true)](https://ci.appveyor.com/project/mcartoixa/vigicrues-client)

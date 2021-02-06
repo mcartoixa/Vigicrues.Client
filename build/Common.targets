@@ -6,9 +6,6 @@
     <UnitTestsSuffix Condition="'$(UnitTestsSuffix)'==''">.Tests</UnitTestsSuffix>
 
     <InputPath>$(MSBuildProjectDirectory)</InputPath>
-    <RootPath Condition="'$(RootPath)'==''">$(MSBuildProjectDirectory)\..</RootPath>
-
-    <BinOutputPath>$(RootPath)\bin\</BinOutputPath>
     <TmpOutputPath>$(InputPath)\tmp\</TmpOutputPath>
 
     <TmpOutBinOutputPath>$(TmpOutputPath)out\bin\</TmpOutBinOutputPath>
@@ -52,24 +49,13 @@
 
 
   <!-- Clean -->
-  <Target Name="Clean" DependsOnTargets="CleanProject" />
+  <Target Name="Clean" DependsOnTargets="CleanProject;CleanDirectories" />
 
   <Target Name="CleanDirectories">
     <RemoveDir Directories="$(TmpOutputPath)" />
   </Target>
 
   <Target Name="CleanProject">
-    <PropertyGroup>
-      <_BaseOutputPath>$(BuildOutputPath)%(Projects.FileName)\</_BaseOutputPath>
-      <_BaseIntermediateOutputPath>$(IntermediateOutputPath)bin\%(Projects.FileName)\</_BaseIntermediateOutputPath>
-    </PropertyGroup>
-    <MSBuild
-      Projects="%(Projects.Identity)"
-      RebaseOutputs="True"
-      Properties="Configuration=%(Projects.Configuration);Platform=%(Projects.Platform);BaseOutputPath=$(_BaseOutputPath);BaseIntermediateOutputPath=$(_BaseIntermediateOutputPath);%(Projects.Properties)"
-      Targets="Restore;Clean"
-      RunEachTargetSeparately="False"
-    />
     <!-- Redirecting intermediates won't work, so making sure here: https://github.com/dotnet/sdk/issues/3485 -->
     <MSBuild
       Projects="%(Projects.Identity)"
@@ -104,11 +90,27 @@
   <!-- Test -->
   <Target Name="Test" DependsOnTargets="Prepare;TestProject;GenerateTestReports" />
 
-  <ItemGroup>
-    <TestProjects Include="*\*.Tests.csproj" />
-  </ItemGroup>
+  <Target Name="_GetTestProjects"
+    Returns="@(TestProjects)"
+    BeforeTargets="TestProject"
+  >
+    <ItemGroup>
+      <TestProjects Include="$(InputPath)\**\*$(UnitTestsSuffix).csproj" />
+    </ItemGroup>
+  </Target>
+
+  <Target Name="_GetCoverageResults"
+    Returns="@(CoverageResults)"
+    BeforeTargets="GenerateTestReports"
+  >
+    <ItemGroup>
+      <CoverageResults Include="$(TestsOutputPath)results\**\coverage.cobertura.xml" />
+    </ItemGroup>
+  </Target>
+
   <Target Name="TestProject"
     Outputs="$(TestsOutputPath)results\%(TestProjects.Filename)\TestResults.xml"
+    DependsOnTargets="_GetTestProjects"
   >
     <!--  Using solutions for unit tests won't work: https://github.com/Microsoft/vstest/issues/411
           Redirecting intermediates won't work either: https://github.com/dotnet/sdk/issues/3485 -->
@@ -146,19 +148,13 @@
     <Copy Condition="Exists('$(_VSTestResultsPath)TestResults.xml')" SourceFiles="$(_VSTestResultsPath)TestResults.xml" DestinationFiles="$(TmpOutputPath)%(TestProjects.Filename)-xunit-results.xml" />
   </Target>
 
-  <Target Name="GenerateTestReports"
-    Returns="@(CoverageResults)"
-  >
-    <ItemGroup>
-      <CoverageResults Include="$(TestsOutputPath)results\**\coverage.cobertura.xml" />
-    </ItemGroup>
-  </Target>
-
+  <!-- Split the target in 2 so that the condition can be evaluated -->
+  <Target Name="GenerateTestReports" DependsOnTargets="TestProject;_GetCoverageResults" />
   <Target Name="_GenerateTestReports"
     Condition="'@(CoverageResults)' != ''"
     AfterTargets="GenerateTestReports"
   >
-    <ReportGenerator Condition="" ReportFiles="@(CoverageResults)" TargetDirectory="$(TestsOutputPath)" ReportTypes="HtmlInline;Cobertura" VerbosityLevel="Info" />
+    <ReportGenerator ReportFiles="@(CoverageResults)" TargetDirectory="$(TestsOutputPath)" ReportTypes="HtmlInline;Cobertura" VerbosityLevel="Info" />
     <Move SourceFiles="$(TestsOutputPath)Cobertura.xml" DestinationFiles="$(TmpOutputPath)$(MSBuildProjectName)-cobertura-results.xml" />
 
     <XmlPeek XmlInputPath="$(TmpOutputPath)$(MSBuildProjectName)-cobertura-results.xml" Query="/coverage/@line-rate">
@@ -167,7 +163,7 @@
     <Message Importance="High" Text="Line coverage: @(CoverageLineRate)" />
   </Target>
 
-  
+
 
   <!-- Analysis -->
   <Target Name="Analyze" DependsOnTargets="Prepare;CountLoc" />
@@ -194,7 +190,7 @@
   <Target Name="PackageProject">
     <PropertyGroup>
       <_BaseOutputPath>$(PackageOutputPath)%(Projects.FileName)\</_BaseOutputPath>
-      <_BaseIntermediateOutputPath>$(IntermediateOutputPath)pck\%(Projects.FileName)\</_BaseIntermediateOutputPath>
+      <_BaseIntermediateOutputPath>$(IntermediateOutputPath)bin\%(Projects.FileName)\</_BaseIntermediateOutputPath>
     </PropertyGroup>
     <ItemGroup>
       <_PackageProperties Include="PackageOutputPath=$(TmpOutBinOutputPath)" />

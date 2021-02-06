@@ -49,11 +49,7 @@
 
 
   <!-- Clean -->
-  <Target Name="Clean" DependsOnTargets="CleanProject;CleanDirectories" />
-
-  <Target Name="CleanDirectories">
-    <RemoveDir Directories="$(TmpOutputPath)" />
-  </Target>
+  <Target Name="Clean" DependsOnTargets="CleanProject" />
 
   <Target Name="CleanProject">
     <!-- Redirecting intermediates won't work, so making sure here: https://github.com/dotnet/sdk/issues/3485 -->

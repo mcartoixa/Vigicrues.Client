@@ -49,16 +49,28 @@
 
 
   <!-- Clean -->
-  <Target Name="Clean" DependsOnTargets="CleanProject" />
+  <Target Name="Clean" DependsOnTargets="CleanProjects;CleanTestProjects" />
 
-  <Target Name="CleanProject">
+  <Target Name="CleanProjects">
     <!-- Redirecting intermediates won't work, so making sure here: https://github.com/dotnet/sdk/issues/3485 -->
     <MSBuild
       Projects="%(Projects.Identity)"
       RebaseOutputs="True"
       Properties="Configuration=%(Projects.Configuration);Platform=%(Projects.Platform);%(Projects.Properties)"
       Targets="Restore;Clean"
-      RunEachTargetSeparately="False"
+    />
+  </Target>
+
+  <Target Name="CleanTestProjects"
+    Outputs="%(TestProjects.RootDir)%(TestProjects.Directory)\obj\dummy.txt"
+    DependsOnTargets="_GetTestProjects"
+  >
+    <!-- Redirecting intermediates won't work, so making sure here: https://github.com/dotnet/sdk/issues/3485 -->
+    <MSBuild
+      Projects="%(TestProjects.Identity)"
+      RebaseOutputs="True"
+      Properties="Configuration=Release"
+      Targets="Restore;Clean"
     />
   </Target>
 
@@ -77,7 +89,6 @@
       RebaseOutputs="True"
       Properties="Configuration=%(Projects.Configuration);Platform=%(Projects.Platform);BaseOutputPath=$(_BaseOutputPath);BaseIntermediateOutputPath=$(_BaseIntermediateOutputPath);%(Projects.Properties)"
       Targets="Restore;Build"
-      RunEachTargetSeparately="False"
     />
   </Target>
 
@@ -113,12 +124,15 @@
     <ItemGroup>
       <_VsTestLoggers Include="xunit" />
       <_VsTestLoggers Condition="'$(VSTEST_LOGGER)' != ''" Include="$(VSTEST_LOGGER)" />
+      <_VsTestTestAdapterPaths Include="$(InputPath)" />
+      <_VsTestTestAdapterPaths Condition="'$(VSTEST_TESTADAPTERPATH)' != ''" Include="$(VSTEST_TESTADAPTERPATH)" />
     </ItemGroup>
     <PropertyGroup>
       <_BaseOutputPath>$(TestsOutputPath)bin\%(TestProjects.Filename)\</_BaseOutputPath>
       <_BaseIntermediateOutputPath>$(IntermediateOutputPath)tst\%(TestProjects.Filename)\</_BaseIntermediateOutputPath>
       <_VSTestResultsPath>$(TestsOutputPath)results\%(TestProjects.Filename)\</_VSTestResultsPath>
-      <_VsTestLogger>@(_VsTestLogger->'&quot;%(Identity)&quot;')</_VsTestLogger>
+      <_VsTestLogger>@(_VsTestLoggers->'%(Identity)')</_VsTestLogger>
+      <_VsTestTestAdapterPath>@(_VsTestTestAdapterPaths->'%(Identity)')</_VsTestTestAdapterPath>
     </PropertyGroup>
     <ItemGroup>
       <_TestProperties Include="IsTestProject=True" />
@@ -127,7 +141,7 @@
       <_TestProperties Include="VSTestBlame=True" />
       <_TestProperties Include="VSTestVerbosity=normal" />
       <_TestProperties Include="VSTestResultsDirectory=$(_VSTestResultsPath)" />
-      <_TestProperties Include="VSTestTestAdapterPath=$(InputPath)" />
+      <_TestProperties Include="VSTestTestAdapterPath=$(_VsTestTestAdapterPath)" />
       <_TestProperties Include="VSTestCollect=XPlat Code Coverage" />
       <_TestProperties Include="VSTestLogger=$(_VsTestLogger)" />
       <_TestProperties Condition="Exists('$(InputPath)\$(MSBuildProjectName)$(UnitTestsSuffix).runsettings')" Include="VSTestSetting=$(InputPath)\$(MSBuildProjectName)$(UnitTestsSuffix).runsettings" />
@@ -137,9 +151,8 @@
     <MSBuild
       Projects="%(TestProjects.Identity)"
       RebaseOutputs="True"
-      Properties="Configuration=Release;BaseOutputPath=$(_BaseOutputPath);@(_TestProperties);%(Projects.Properties)"
+      Properties="Configuration=Release;BaseOutputPath=$(_BaseOutputPath);@(_TestProperties)"
       Targets="Restore;VSTest"
-      RunEachTargetSeparately="False"
     />
     <Copy Condition="Exists('$(_VSTestResultsPath)TestResults.xml')" SourceFiles="$(_VSTestResultsPath)TestResults.xml" DestinationFiles="$(TmpOutputPath)%(TestProjects.Filename)-xunit-results.xml" />
   </Target>
@@ -196,7 +209,6 @@
       RebaseOutputs="True"
       Properties="Configuration=%(Projects.Configuration);Platform=%(Projects.Platform);BaseOutputPath=$(_BaseOutputPath);BaseIntermediateOutputPath=$(_BaseIntermediateOutputPath);@(_PackageProperties);%(Projects.Properties)"
       Targets="Restore;Pack"
-      RunEachTargetSeparately="False"
     />
   </Target>
 

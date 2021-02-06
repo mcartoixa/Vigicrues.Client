@@ -1,0 +1,50 @@
+name: Build
+
+on:
+  push:
+    paths-ignore:
+    - '**.md'
+    - 'LICENSE'
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [windows-latest, ubuntu-latest, macos-latest]
+    env:
+      DOTNET_NOLOGO: true
+      DOTNET_SKIP_FIRST_TIME_EXPERIENCE: 1
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Setup dotnet
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '3.1.x'
+    - name: Restore tools
+      run: dotnet tool restore
+    - name: Windows build
+      if: runner.os == 'Windows'
+      shell: cmd
+      run: |
+        CALL build/SetEnv.bat
+        dotnet msbuild Vigicrues.Client.proj /nologo /t:Release /m /r /fl /flp:logfile=build.log;verbosity=diagnostic;encoding=UTF-8 /nr:False
+    - name: Non-Windows build
+      if: runner.os != 'Windows'
+      shell: bash
+      run: |
+        source build/.bashrc
+        dotnet msbuild Vigicrues.Client.proj /nologo /t:Release /m /r /fl /flp:logfile=build.log;verbosity=diagnostic;encoding=UTF-8
+    - name: Archive artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: outputs
+        path: |
+          tmp/out/bin/**.*
+    - name: Archive logs
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v2
+      with:
+        name: logs
+        path: |
+          build.log

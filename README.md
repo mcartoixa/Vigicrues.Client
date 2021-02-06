@@ -4,6 +4,7 @@
 [![Release](https://badgen.net/github/release/mcartoixa/Vigicrues.Client?icon=github)](https://github.com/mcartoixa/Vigicrues.Client/releases)
 
 [![Build status](https://ci.appveyor.com/api/projects/status/dxhegfa9ow48axtn?svg=true)](https://ci.appveyor.com/project/mcartoixa/vigicrues-client)
+[![Build](https://github.com/mcartoixa/Vigicrues.Client/workflows/Build/badge.svg)](https://github.com/mcartoixa/Vigicrues.Client/actions)
 [![Code coverage](https://codecov.io/gh/mcartoixa/Vigicrues.Client/branch/main/graph/badge.svg)](https://codecov.io/gh/mcartoixa/Vigicrues.Client)
 
 This library provides a .NET wrapper around [the Vigicrues API](https://www.vigicrues.gouv.fr/services/1/), which reports information about flooding hazards in France.
@@ -14,7 +15,7 @@ Releases for this library [can be found on NuGet](https://www.nuget.org/packages
 ## Development
 ### Prerequisites
 This library requires:
-* [.NET Core SDK v 3.0.100](https://dotnet.microsoft.com/download/visual-studio-sdks).
+* [.NET Core SDK v 3.1](https://dotnet.microsoft.com/download/visual-studio-sdks).
 
 ### Build
 The build system for this project is mainly organized around MSBuild script files that can be called from [any CI provider](appveyorl.yml) as well as on your computer (use [`build.bat`](build.bat) or [`build.sh`](build.sh) depending on your platform):
